@@ -324,10 +324,6 @@ Cette cible installe les dependances Python de developpement depuis `requirement
 
 ## Installation complete backend
 
-```bash
-make setup
-```
-
 Cette commande :
 
 - installe les dependances ;
@@ -347,20 +343,10 @@ npm install
 ## Lancer le daemon principal
 
 ```bash
-make run
-```
-
-Equivalent :
-
-```bash
 python manage.py rundaemon
 ```
 
 ## Lancer l'admin Django
-
-```bash
-make admin
-```
 
 URL :
 
@@ -402,17 +388,6 @@ data/db.sqlite3
 
 Voici les commandes essentielles pour tester l'application.
 
-## Lancer toute la suite de tests
-
-```bash
-make test
-```
-
-Commande declaree dans le `Makefile` :
-
-```bash
-.venv/bin/pytest
-```
 
 ## Lancer pytest directement
 
@@ -481,20 +456,6 @@ La suite couvre principalement :
 - navigation/browser ;
 - configuration.
 
-## Docker
-
-Le `Makefile` expose aussi :
-
-- `make docker-test`
-- `make build`
-- `make up`
-- `make stop`
-- `make logs`
-- `make up-view`
-
-Attention :
-
-ces commandes s'appuient sur `local.yml`, mais ce fichier n'est pas present a la racine du depot actuel. Elles supposent donc qu'un fichier Compose soit restaure ou fourni a part.
 
 ## Resume final
 
@@ -506,41 +467,4 @@ Cette application est une plateforme marketing complete qui relie :
 - un daemon d'automatisation LinkedIn ;
 - une couche ML/LLM pour qualification et generation ;
 - une suite de tests backend basee sur pytest.
-
-## .env :
-# OpenAI-compatible LLM configuration
-LLM_API_KEY=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
-LLM_API_BASE=https://api.groq.com/openai/v1
-LLM_API_MODEL=openai/gpt-oss-120b
-
-FACEBOOK_PAGE_ID=your_facebook_page_id
-FACEBOOK_PAGE_ACCESS_TOKEN=your_facebook_page_access_token
-META_GRAPH_API_BASE=https://graph.facebook.com/v23.0
-
-
-VITE_ECOMMERCE_CONFIG_KEY=ecommerce_config
-VITE_DASHBOARD_REFRESH_MS=5000
-VITE_DASHBOARD_REQUEST_TIMEOUT_MS=15000
-VITE_HF_API_KEY=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 
-VITE_GROQ_API_KEY=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
-VITE_GEMINI_API_KEY=AIzaSyA2iXw9PGA0_pYPRgsGMbPAkxFMQUTwRsc
-
-VITE_DEEPSEEK_API_KEY=sk-e0c5f76be4a94953883ad8d0171dc6d2
-VITE_FAL_API_KEY=fa92a997-751a-48fc-a8fa-b4eeb8a94412:2a3b29ee06fa89575c46eb41a300f345  ge
-
-
-
-/Professional Marketing Frontend :
-
-VITE_ECOMMERCE_CONFIG_KEY=ecommerce_config
-VITE_DASHBOARD_REFRESH_MS=5000
-VITE_DASHBOARD_REQUEST_TIMEOUT_MS=15000
-VITE_HF_API_KEY=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 
-VITE_GROQ_API_KEY=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
-VITE_GEMINI_API_KEY=AIzaSyA2iXw9PGA0_pYPRgsGMbPAkxFMQUTwRsc
-
-VITE_DEEPSEEK_API_KEY=sk-e0c5f76be4a94953883ad8d0171dc6d2
-VITE_FAL_API_KEY=fa92a997-751a-48fc-a8fa-b4eeb8a94412:2a3b29ee06fa89575c46eb41a300f345  ge
-
-
 
