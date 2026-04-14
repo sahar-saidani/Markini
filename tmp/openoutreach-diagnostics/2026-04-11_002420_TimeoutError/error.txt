@@ -1,0 +1,65 @@
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Desktop\OpenOutreach\linkedin\diagnostics.py", line 49, in failure_diagnostics
+    yield
+  File "C:\Users\ASUS\Desktop\OpenOutreach\linkedin\daemon.py", line 259, in run_daemon
+    handler(task, session, qualifiers)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\Desktop\OpenOutreach\linkedin\tasks\connect.py", line 150, in handle_connect
+    status = get_connection_status(session, profile)
+  File "C:\Users\ASUS\Desktop\OpenOutreach\linkedin\actions\status.py", line 110, in get_connection_status
+    return _inspect_ui(session, profile)
+  File "C:\Users\ASUS\Desktop\OpenOutreach\linkedin\actions\status.py", line 52, in _inspect_ui
+    visit_profile(session, profile)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\Desktop\OpenOutreach\linkedin\actions\search.py", line 42, in visit_profile
+    _go_to_profile(session, url, public_identifier)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\Desktop\OpenOutreach\linkedin\actions\search.py", line 22, in _go_to_profile
+    goto_page(
+    ~~~~~~~~~^
+        session,
+        ^^^^^^^^
+    ...<2 lines>...
+        error_message="Failed to navigate to the target profile"
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ASUS\Desktop\OpenOutreach\linkedin\browser\nav.py", line 21, in goto_page
+    action()
+    ~~~~~~^^
+  File "C:\Users\ASUS\Desktop\OpenOutreach\linkedin\actions\search.py", line 24, in <lambda>
+    action=lambda: session.page.goto(url),
+                   ~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\ASUS\Desktop\OpenOutreach\.venv\Lib\site-packages\playwright\sync_api\_generated.py", line 9054, in goto
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.goto(
+        ^^^^^^^^^^^^^^^^^^^^
+            url=url, timeout=timeout, waitUntil=wait_until, referer=referer
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        )
+        ^
+    )
+    ^
+  File "C:\Users\ASUS\Desktop\OpenOutreach\.venv\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\ASUS\Desktop\OpenOutreach\.venv\Lib\site-packages\playwright\_impl\_page.py", line 552, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\Desktop\OpenOutreach\.venv\Lib\site-packages\playwright\_impl\_frame.py", line 153, in goto
+    await self._channel.send(
+        "goto", self._navigation_timeout, locals_to_params(locals())
+    )
+  File "C:\Users\ASUS\Desktop\OpenOutreach\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\ASUS\Desktop\OpenOutreach\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.linkedin.com/in/seifsg/", waiting until "load"
+

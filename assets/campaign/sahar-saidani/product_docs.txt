@@ -1,0 +1,10 @@
+Company: MSH Consulting
+Sector: Edition
+Company description: Nous proposons une selection de livres pour
+particuliers et professionnels : romans, livres business, developpement personnel, jeunesse et coffrets cadeaux.
+Product/service: Selection de livres
+Offer description: 
+Benefits: Selection pertinente, gain de temps, recommandations personnalisees, idees cadeaux, commandes en volume.
+Price: A partir de 10 EUR
+Founder title: Responsable commerciale livres
+Lead source rule: when a lead comes from a post engagement, personalize follow-up using the source post topic and comment text when available.

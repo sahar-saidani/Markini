@@ -1,0 +1,66 @@
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Desktop\OpenOutreach\linkedin\diagnostics.py", line 49, in failure_diagnostics
+    yield
+  File "C:\Users\ASUS\Desktop\OpenOutreach\linkedin\daemon.py", line 259, in run_daemon
+    handler(task, session, qualifiers)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\Desktop\OpenOutreach\linkedin\tasks\check_pending.py", line 41, in handle_check_pending
+    new_state = get_connection_status(session, profile)
+  File "C:\Users\ASUS\Desktop\OpenOutreach\linkedin\actions\status.py", line 100, in get_connection_status
+    session.ensure_browser()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ASUS\Desktop\OpenOutreach\linkedin\browser\session.py", line 49, in ensure_browser
+    start_browser_session(session=self)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\Desktop\OpenOutreach\linkedin\browser\login.py", line 84, in start_browser_session
+    playwright_login(session)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\ASUS\Desktop\OpenOutreach\linkedin\browser\login.py", line 32, in playwright_login
+    goto_page(
+    ~~~~~~~~~^
+        session,
+        ^^^^^^^^
+    ...<2 lines>...
+        error_message="Failed to load login page",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ASUS\Desktop\OpenOutreach\linkedin\browser\nav.py", line 21, in goto_page
+    action()
+    ~~~~~~^^
+  File "C:\Users\ASUS\Desktop\OpenOutreach\linkedin\browser\login.py", line 34, in <lambda>
+    action=lambda: page.goto(LINKEDIN_LOGIN_URL),
+                   ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\Desktop\OpenOutreach\.venv\Lib\site-packages\playwright\sync_api\_generated.py", line 9054, in goto
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.goto(
+        ^^^^^^^^^^^^^^^^^^^^
+            url=url, timeout=timeout, waitUntil=wait_until, referer=referer
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        )
+        ^
+    )
+    ^
+  File "C:\Users\ASUS\Desktop\OpenOutreach\.venv\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\ASUS\Desktop\OpenOutreach\.venv\Lib\site-packages\playwright\_impl\_page.py", line 552, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\Desktop\OpenOutreach\.venv\Lib\site-packages\playwright\_impl\_frame.py", line 153, in goto
+    await self._channel.send(
+        "goto", self._navigation_timeout, locals_to_params(locals())
+    )
+  File "C:\Users\ASUS\Desktop\OpenOutreach\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\ASUS\Desktop\OpenOutreach\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.linkedin.com/login
+Call log:
+  - navigating to "https://www.linkedin.com/login", waiting until "load"
+

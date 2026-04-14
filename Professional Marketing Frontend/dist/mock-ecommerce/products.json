@@ -1,0 +1,186 @@
+{
+  "products": [
+    {
+      "id": "P001",
+      "name": "Robe Fleurie Lina",
+      "price": 79,
+      "stock": 6,
+      "totalSales": 46,
+      "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=600&q=80",
+      "category": "Robes",
+      "rating": 4.8,
+      "created_at": "2026-02-21T10:00:00Z"
+    },
+    {
+      "id": "P002",
+      "name": "Robe Satin Nuit",
+      "price": 95,
+      "stock": 0,
+      "totalSales": 47,
+      "image": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=600&q=80",
+      "category": "Robes",
+      "rating": 4.7,
+      "created_at": "2026-02-04T10:00:00Z"
+    },
+    {
+      "id": "P003",
+      "name": "Blazer Beige Aura",
+      "price": 120,
+      "stock": 0,
+      "totalSales": 60,
+      "image": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=600&q=80",
+      "category": "Vestes",
+      "rating": 4.6,
+      "created_at": "2026-02-01T10:00:00Z"
+    },
+    {
+      "id": "P004",
+      "name": "Jean Wide Leg Nova",
+      "price": 68,
+      "stock": 17,
+      "totalSales": 44,
+      "image": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=600&q=80",
+      "category": "Jeans",
+      "rating": 4.5,
+      "created_at": "2026-02-24T10:00:00Z"
+    },
+    {
+      "id": "P005",
+      "name": "Top Maille Ivoire",
+      "price": 42,
+      "stock": 23,
+      "totalSales": 50,
+      "image": "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=600&q=80",
+      "category": "Tops",
+      "rating": 4.4,
+      "created_at": "2026-02-09T10:00:00Z"
+    },
+    {
+      "id": "P006",
+      "name": "Chemise Oversize Sky",
+      "price": 58,
+      "stock": 0,
+      "totalSales": 52,
+      "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=600&q=80",
+      "category": "Chemises",
+      "rating": 4.3,
+      "created_at": "2026-02-08T10:00:00Z"
+    },
+    {
+      "id": "P007",
+      "name": "Sneakers Urban Glow",
+      "price": 110,
+      "stock": 0,
+      "totalSales": 48,
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=600&q=80",
+      "category": "Chaussures",
+      "rating": 4.6,
+      "created_at": "2026-02-08T10:00:00Z"
+    },
+    {
+      "id": "P008",
+      "name": "Sac Cuir Sable",
+      "price": 145,
+      "stock": 0,
+      "totalSales": 40,
+      "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=600&q=80",
+      "category": "Sacs",
+      "rating": 4.8,
+      "created_at": "2026-02-05T10:00:00Z"
+    },
+    {
+      "id": "P009",
+      "name": "Ceinture Gold Line",
+      "price": 29,
+      "stock": 49,
+      "totalSales": 34,
+      "image": "https://images.unsplash.com/photo-1617038220319-276d3cfab638?auto=format&fit=crop&w=600&q=80",
+      "category": "Accessoires",
+      "rating": 4.2,
+      "created_at": "2026-02-24T10:00:00Z"
+    },
+    {
+      "id": "P010",
+      "name": "Jupe Midi Rosalie",
+      "price": 64,
+      "stock": 0,
+      "totalSales": 47,
+      "image": "https://images.unsplash.com/photo-1581044777550-4cfa60707c03?auto=format&fit=crop&w=600&q=80",
+      "category": "Jupes",
+      "rating": 4.4,
+      "created_at": "2026-02-04T10:00:00Z"
+    },
+    {
+      "id": "P011",
+      "name": "Pull Minimal Dune",
+      "price": 72,
+      "stock": 0,
+      "totalSales": 64,
+      "image": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?auto=format&fit=crop&w=600&q=80",
+      "category": "Mailles",
+      "rating": 4.5,
+      "created_at": "2026-02-22T10:00:00Z"
+    },
+    {
+      "id": "P012",
+      "name": "Veste Denim Sol",
+      "price": 88,
+      "stock": 0,
+      "totalSales": 46,
+      "image": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=600&q=80",
+      "category": "Vestes",
+      "rating": 4.3,
+      "created_at": "2026-02-24T10:00:00Z"
+    },
+    {
+      "id": "P013",
+      "name": "Escarpins Luna",
+      "price": 99,
+      "stock": 0,
+      "totalSales": 51,
+      "image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=600&q=80",
+      "category": "Chaussures",
+      "rating": 4.5,
+      "created_at": "2026-02-18T10:00:00Z"
+    },
+    {
+      "id": "P014",
+      "name": "Tote Bag Studio",
+      "price": 36,
+      "stock": 23,
+      "totalSales": 43,
+      "image": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=600&q=80",
+      "category": "Sacs",
+      "rating": 4.1,
+      "created_at": "2026-02-03T10:00:00Z"
+    },
+    {
+      "id": "P015",
+      "name": "Boucles Halo",
+      "price": 24,
+      "stock": 54,
+      "totalSales": 43,
+      "image": "https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?auto=format&fit=crop&w=600&q=80",
+      "category": "Accessoires",
+      "rating": 4.0,
+      "created_at": "2026-02-19T10:00:00Z"
+    },
+    {
+      "id": "P016",
+      "name": "Cardigan Soft Cream",
+      "price": 76,
+      "stock": 7,
+      "totalSales": 34,
+      "image": "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?auto=format&fit=crop&w=600&q=80",
+      "category": "Mailles",
+      "rating": 4.4,
+      "created_at": "2026-02-14T10:00:00Z"
+    }
+  ],
+  "metadata": {
+    "dataset": "monthly-ecommerce-demo",
+    "start_date": "2026-03-12",
+    "end_date": "2026-04-11",
+    "days": 31
+  }
+}

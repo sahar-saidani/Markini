@@ -1,0 +1,9 @@
+Company: 
+Sector: 
+Company description: 
+Product/service: 
+Offer description: 
+Benefits: 
+Price: 
+Founder title: 
+Lead source rule: when a lead comes from a post engagement, personalize follow-up using the source post topic and comment text when available.

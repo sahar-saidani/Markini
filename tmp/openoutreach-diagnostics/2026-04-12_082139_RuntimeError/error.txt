@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Desktop\markini\linkedin\diagnostics.py", line 49, in failure_diagnostics
+    yield
+  File "C:\Users\ASUS\Desktop\markini\linkedin\daemon.py", line 259, in run_daemon
+    handler(task, session, qualifiers)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\Desktop\markini\linkedin\tasks\connect.py", line 150, in handle_connect
+    status = get_connection_status(session, profile)
+  File "C:\Users\ASUS\Desktop\markini\linkedin\actions\status.py", line 100, in get_connection_status
+    session.ensure_browser()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ASUS\Desktop\markini\linkedin\browser\session.py", line 49, in ensure_browser
+    start_browser_session(session=self)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\Desktop\markini\linkedin\browser\login.py", line 121, in start_browser_session
+    playwright_login(session)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\ASUS\Desktop\markini\linkedin\browser\login.py", line 88, in playwright_login
+    raise RuntimeError(
+    ...<2 lines>...
+    )
+RuntimeError: LinkedIn a demande une verification de securite (checkpoint/challenge). Les identifiants ont ete soumis, mais la connexion automatique ne peut pas continuer sans validation manuelle.

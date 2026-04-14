@@ -1,0 +1,28 @@
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Desktop\marketing-app\linkedin\diagnostics.py", line 49, in failure_diagnostics
+    yield
+  File "C:\Users\ASUS\Desktop\marketing-app\linkedin\daemon.py", line 259, in run_daemon
+    handler(task, session, qualifiers)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\Desktop\marketing-app\linkedin\tasks\connect.py", line 150, in handle_connect
+    status = get_connection_status(session, profile)
+  File "C:\Users\ASUS\Desktop\marketing-app\linkedin\actions\status.py", line 100, in get_connection_status
+    session.ensure_browser()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ASUS\Desktop\marketing-app\linkedin\browser\session.py", line 49, in ensure_browser
+    start_browser_session(session=self)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\Desktop\marketing-app\linkedin\browser\login.py", line 118, in start_browser_session
+    session.page, session.context, session.browser, session.playwright = launch_browser(storage_state=storage_state)
+                                                                         ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\Desktop\marketing-app\linkedin\browser\login.py", line 99, in launch_browser
+    playwright = sync_playwright().start()
+  File "C:\Users\ASUS\Desktop\marketing-app\.venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 84, in start
+    return self.__enter__()
+           ~~~~~~~~~~~~~~^^
+  File "C:\Users\ASUS\Desktop\marketing-app\.venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 47, in __enter__
+                raise Error(
+    ...<2 lines>...
+                )
+playwright._impl._errors.Error: It looks like you are using Playwright Sync API inside the asyncio loop.
+Please use the Async API instead.

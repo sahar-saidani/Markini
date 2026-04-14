@@ -1,0 +1,16 @@
+playwright
+playwright-stealth
+pydantic
+jsonpath-ng
+pandas
+langchain
+langchain-openai
+jinja2
+termcolor
+Django>=5.2,<7.0
+tendo
+pyyaml
+fastembed
+scikit-learn
+huggingface_hub
+openoutreach @ git+https://github.com/eracle/openoutreach-cli.git@main

@@ -1,0 +1,76 @@
+{% extends "linkedin/app/base.html" %}
+
+{% block title %}LeadFlow AI | AI Setup{% endblock %}
+
+{% block content %}
+<section class="hero">
+    <div class="card hero-card">
+        <span class="eyebrow">AI Setup</span>
+        <h1>Configure the AI layer with the minimum information needed.</h1>
+        <p class="lede">
+            This page saves only the core AI configuration used by the backend. Sensitive values are not displayed back in the interface.
+        </p>
+    </div>
+    <div class="card">
+        <div class="kicker">Workspace status</div>
+        <h2>Setup summary</h2>
+        <div class="stack">
+            <div class="mini-card">
+                <div class="strong">AI status</div>
+                <p>{% if ai_ready %}Configured{% else %}Not configured{% endif %}</p>
+            </div>
+            <div class="mini-card">
+                <div class="strong">LinkedIn profiles</div>
+                <p>{{ active_profile_count }} active profile{{ active_profile_count|pluralize }} configured.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section grid-2">
+    <div class="card">
+        <div class="section-head">
+            <div>
+                <h2>Save AI configuration</h2>
+                <p>Only the API key is required for the default Groq setup.</p>
+            </div>
+        </div>
+        <form method="post" action="{% url 'save_settings' %}">
+            {% csrf_token %}
+            <div class="form-grid">
+                {% for field in form %}
+                <div class="field full">
+                    <label for="{{ field.id_for_label }}">{{ field.label }}</label>
+                    {{ field }}
+                    {% if field.help_text %}<div class="helptext">{{ field.help_text }}</div>{% endif %}
+                    {% if field.errors %}<div class="helptext" style="color:var(--danger);">{{ field.errors|join:", " }}</div>{% endif %}
+                </div>
+                {% endfor %}
+            </div>
+            <div class="actions">
+                <button class="button" type="submit">Save AI settings</button>
+                <a class="button secondary" href="{{ admin_url }}">Open Django admin</a>
+            </div>
+        </form>
+    </div>
+
+    <div class="card">
+        <div class="section-head">
+            <div>
+                <h2>Security note</h2>
+                <p>This simplified interface avoids exposing internal runtime data.</p>
+            </div>
+        </div>
+        <div class="stack">
+            <div class="mini-card">
+                <div class="strong">Hidden from this UI</div>
+                <p>API key values, LinkedIn account emails, task payloads, and message history are intentionally not shown here.</p>
+            </div>
+            <div class="mini-card">
+                <div class="strong">Advanced setup</div>
+                <p>Use Django admin only when you need to manage raw backend records such as LinkedIn profiles, leads, or deals.</p>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

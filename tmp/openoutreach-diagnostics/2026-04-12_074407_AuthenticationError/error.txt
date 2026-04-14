@@ -1,0 +1,44 @@
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Desktop\marketing-app\linkedin\diagnostics.py", line 49, in failure_diagnostics
+    yield
+  File "C:\Users\ASUS\Desktop\marketing-app\linkedin\daemon.py", line 259, in run_daemon
+    handler(task, session, qualifiers)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\Desktop\marketing-app\linkedin\tasks\connect.py", line 125, in handle_connect
+    candidate = strategy.find_candidate(session)
+  File "C:\Users\ASUS\Desktop\marketing-app\linkedin\tasks\connect.py", line 87, in <lambda>
+    find_candidate=lambda s: find_candidate(s, qualifier),
+                             ~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\Desktop\marketing-app\linkedin\pipeline\pools.py", line 161, in find_candidate
+    return next(ready_source(session, qualifier), None)
+  File "C:\Users\ASUS\Desktop\marketing-app\linkedin\pipeline\pools.py", line 146, in ready_source
+    if next(qualify, None) is not None:
+       ~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\Desktop\marketing-app\linkedin\pipeline\pools.py", line 123, in qualify_source
+    result = run_qualification(session, qualifier)
+  File "C:\Users\ASUS\Desktop\marketing-app\linkedin\pipeline\qualify.py", line 87, in run_qualification
+    profile_text = _fetch_profile_text(session, lead_id, public_id)
+  File "C:\Users\ASUS\Desktop\marketing-app\linkedin\pipeline\qualify.py", line 130, in _fetch_profile_text
+    profile_data = lead.get_profile(session)
+  File "C:\Users\ASUS\Desktop\marketing-app\crm\models\lead.py", line 53, in get_profile
+    profile, _raw = api.get_profile(public_identifier=self.public_identifier)
+                    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\Desktop\marketing-app\.venv\Lib\site-packages\tenacity\__init__.py", line 331, in wrapped_f
+    return copy(f, *args, **kw)
+  File "C:\Users\ASUS\Desktop\marketing-app\.venv\Lib\site-packages\tenacity\__init__.py", line 470, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\Users\ASUS\Desktop\marketing-app\.venv\Lib\site-packages\tenacity\__init__.py", line 371, in iter
+    result = action(retry_state)
+  File "C:\Users\ASUS\Desktop\marketing-app\.venv\Lib\site-packages\tenacity\__init__.py", line 393, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ASUS\miniconda3\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ASUS\miniconda3\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\ASUS\Desktop\marketing-app\.venv\Lib\site-packages\tenacity\__init__.py", line 473, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\ASUS\Desktop\marketing-app\linkedin\api\client.py", line 129, in get_profile
+    raise AuthenticationError("LinkedIn API returned 401 Unauthorized.")
+linkedin.exceptions.AuthenticationError: LinkedIn API returned 401 Unauthorized.

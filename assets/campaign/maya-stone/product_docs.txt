@@ -1,0 +1,9 @@
+Company: Growth Lab
+Sector: Marketing
+Company description: Cabinet de growth marketing.
+Product/service: Lead Sprint
+Offer description: Accompagnement LinkedIn.
+Benefits: Plus de RDV qualifiés.
+Price: 
+Founder title: Growth Consultant
+Lead source rule: when a lead comes from a post engagement, personalize follow-up using the source post topic and comment text when available.

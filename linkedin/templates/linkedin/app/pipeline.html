@@ -1,0 +1,46 @@
+{% extends "linkedin/app/base.html" %}
+
+{% block title %}LeadFlow AI | Pipeline{% endblock %}
+
+{% block content %}
+<section class="hero">
+    <div class="card hero-card">
+        <span class="eyebrow">CRM Pipeline</span>
+        <h1>Show the jury a clean acquisition journey instead of raw automation internals.</h1>
+        <p class="lede">
+            Qualified, ready, pending, connected, completed: this board translates the backend state machine into a business narrative.
+        </p>
+    </div>
+    <div class="card">
+        <div class="kicker">Operator view</div>
+        <h2>Stage-by-stage flow</h2>
+        <p class="muted">
+            This page is ideal for the demo moment when you explain how the AI and LinkedIn modules push a prospect through the funnel.
+        </p>
+    </div>
+</section>
+
+<section class="section">
+    <div class="card">
+        <div class="columns">
+            {% for state, deals in pipeline_columns.items %}
+            <div class="column">
+                <h3>{{ state }}</h3>
+                <div class="muted">{{ deals|length }} lead{{ deals|length|pluralize }}</div>
+                <div class="stack">
+                    {% for deal in deals %}
+                    <div class="mini-card">
+                        <div class="strong">{{ deal.lead.full_name|default:deal.lead.public_identifier }}</div>
+                        <p>{{ deal.campaign.name }}</p>
+                        {% if deal.reason %}<p>{{ deal.reason|truncatechars:100 }}</p>{% endif %}
+                    </div>
+                    {% empty %}
+                    <div class="mini-card"><p>No lead in this stage.</p></div>
+                    {% endfor %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endblock %}

@@ -1,0 +1,37 @@
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Desktop\markini\linkedin\diagnostics.py", line 49, in failure_diagnostics
+    yield
+  File "C:\Users\ASUS\Desktop\markini\linkedin\daemon.py", line 259, in run_daemon
+    handler(task, session, qualifiers)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\Desktop\markini\linkedin\tasks\connect.py", line 150, in handle_connect
+    status = get_connection_status(session, profile)
+  File "C:\Users\ASUS\Desktop\markini\linkedin\actions\status.py", line 103, in get_connection_status
+    degree = _fetch_degree(session, public_identifier, profile)
+  File "C:\Users\ASUS\Desktop\markini\linkedin\actions\status.py", line 33, in _fetch_degree
+    lead.refresh_profile(session, profile_dict=profile)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\Desktop\markini\crm\models\lead.py", line 74, in refresh_profile
+    fresh = self.get_profile(session)
+  File "C:\Users\ASUS\Desktop\markini\crm\models\lead.py", line 53, in get_profile
+    profile, _raw = api.get_profile(public_identifier=self.public_identifier)
+                    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\Desktop\markini\.venv\Lib\site-packages\tenacity\__init__.py", line 331, in wrapped_f
+    return copy(f, *args, **kw)
+  File "C:\Users\ASUS\Desktop\markini\.venv\Lib\site-packages\tenacity\__init__.py", line 470, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\Users\ASUS\Desktop\markini\.venv\Lib\site-packages\tenacity\__init__.py", line 371, in iter
+    result = action(retry_state)
+  File "C:\Users\ASUS\Desktop\markini\.venv\Lib\site-packages\tenacity\__init__.py", line 393, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ASUS\miniconda3\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ASUS\miniconda3\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\ASUS\Desktop\markini\.venv\Lib\site-packages\tenacity\__init__.py", line 473, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\ASUS\Desktop\markini\linkedin\api\client.py", line 129, in get_profile
+    raise AuthenticationError("LinkedIn API returned 401 Unauthorized.")
+linkedin.exceptions.AuthenticationError: LinkedIn API returned 401 Unauthorized.

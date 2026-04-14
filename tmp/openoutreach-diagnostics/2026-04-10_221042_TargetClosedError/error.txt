@@ -1,0 +1,71 @@
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Desktop\OpenOutreach\linkedin\diagnostics.py", line 49, in failure_diagnostics
+    yield
+  File "C:\Users\ASUS\Desktop\OpenOutreach\linkedin\daemon.py", line 259, in run_daemon
+    handler(task, session, qualifiers)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\Desktop\OpenOutreach\linkedin\tasks\connect.py", line 150, in handle_connect
+    status = get_connection_status(session, profile)
+  File "C:\Users\ASUS\Desktop\OpenOutreach\linkedin\actions\status.py", line 103, in get_connection_status
+    degree = _fetch_degree(session, public_identifier, profile)
+  File "C:\Users\ASUS\Desktop\OpenOutreach\linkedin\actions\status.py", line 33, in _fetch_degree
+    lead.refresh_profile(session, profile_dict=profile)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\Desktop\OpenOutreach\crm\models\lead.py", line 74, in refresh_profile
+    fresh = self.get_profile(session)
+  File "C:\Users\ASUS\Desktop\OpenOutreach\crm\models\lead.py", line 53, in get_profile
+    profile, _raw = api.get_profile(public_identifier=self.public_identifier)
+                    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\Desktop\OpenOutreach\.venv\Lib\site-packages\tenacity\__init__.py", line 331, in wrapped_f
+    return copy(f, *args, **kw)
+  File "C:\Users\ASUS\Desktop\OpenOutreach\.venv\Lib\site-packages\tenacity\__init__.py", line 470, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\Users\ASUS\Desktop\OpenOutreach\.venv\Lib\site-packages\tenacity\__init__.py", line 371, in iter
+    result = action(retry_state)
+  File "C:\Users\ASUS\Desktop\OpenOutreach\.venv\Lib\site-packages\tenacity\__init__.py", line 393, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ASUS\miniconda3\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ASUS\miniconda3\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\ASUS\Desktop\OpenOutreach\.venv\Lib\site-packages\tenacity\__init__.py", line 473, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\ASUS\Desktop\OpenOutreach\linkedin\api\client.py", line 124, in get_profile
+    res = self.get(full_url, params=params)
+  File "C:\Users\ASUS\Desktop\OpenOutreach\linkedin\api\client.py", line 92, in get
+    return self._fetch("GET", url, h)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\Desktop\OpenOutreach\linkedin\api\client.py", line 71, in _fetch
+    raw = self.page.evaluate(
+        """([method, url, headers, body, timeoutMs]) => {
+    ...<10 lines>...
+        [method, url, headers, body, self.timeout_ms],
+    )
+  File "C:\Users\ASUS\Desktop\OpenOutreach\.venv\Lib\site-packages\playwright\sync_api\_generated.py", line 8566, in evaluate
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.evaluate(expression=expression, arg=mapping.to_impl(arg))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ASUS\Desktop\OpenOutreach\.venv\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\ASUS\Desktop\OpenOutreach\.venv\Lib\site-packages\playwright\_impl\_page.py", line 464, in evaluate
+    return await self._main_frame.evaluate(expression, arg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\Desktop\OpenOutreach\.venv\Lib\site-packages\playwright\_impl\_frame.py", line 320, in evaluate
+    await self._channel.send(
+    ...<6 lines>...
+    )
+  File "C:\Users\ASUS\Desktop\OpenOutreach\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\ASUS\Desktop\OpenOutreach\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.evaluate: Target page, context or browser has been closed

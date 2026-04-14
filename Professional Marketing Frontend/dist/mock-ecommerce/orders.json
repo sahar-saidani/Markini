@@ -1,0 +1,7472 @@
+{
+  "orders": [
+    {
+      "id": "O0001",
+      "customerId": "C145",
+      "total": 145.0,
+      "dateCreated": "2026-03-12T18:38:50Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Facebook Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P008",
+          "quantity": 1,
+          "total": 145
+        }
+      ]
+    },
+    {
+      "id": "O0002",
+      "customerId": "C058",
+      "total": 24.0,
+      "dateCreated": "2026-03-12T15:19:36Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "TikTok Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P015",
+          "quantity": 1,
+          "total": 24
+        }
+      ]
+    },
+    {
+      "id": "O0003",
+      "customerId": "C016",
+      "total": 167.44,
+      "dateCreated": "2026-03-12T10:10:00Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Direct",
+      "discount": 14.56,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P007",
+          "quantity": 1,
+          "total": 110
+        },
+        {
+          "productId": "P011",
+          "quantity": 1,
+          "total": 72
+        }
+      ]
+    },
+    {
+      "id": "O0004",
+      "customerId": "C116",
+      "total": 95.0,
+      "dateCreated": "2026-03-12T20:55:29Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "TikTok Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P002",
+          "quantity": 1,
+          "total": 95
+        }
+      ]
+    },
+    {
+      "id": "O0005",
+      "customerId": "C176",
+      "total": 110.0,
+      "dateCreated": "2026-03-12T19:09:58Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Instagram Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P007",
+          "quantity": 1,
+          "total": 110
+        }
+      ]
+    },
+    {
+      "id": "O0006",
+      "customerId": "C037",
+      "total": 64.0,
+      "dateCreated": "2026-03-12T13:28:07Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Organic Search",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P010",
+          "quantity": 1,
+          "total": 64
+        }
+      ]
+    },
+    {
+      "id": "O0007",
+      "customerId": "C177",
+      "total": 29.0,
+      "dateCreated": "2026-03-12T10:38:02Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Instagram Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P009",
+          "quantity": 1,
+          "total": 29
+        }
+      ]
+    },
+    {
+      "id": "O0008",
+      "customerId": "C007",
+      "total": 393.76,
+      "dateCreated": "2026-03-13T13:11:37Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Organic Search",
+      "discount": 34.24,
+      "itemsCount": 5,
+      "lineItems": [
+        {
+          "productId": "P001",
+          "quantity": 2,
+          "total": 158
+        },
+        {
+          "productId": "P013",
+          "quantity": 2,
+          "total": 198
+        },
+        {
+          "productId": "P011",
+          "quantity": 1,
+          "total": 72
+        }
+      ]
+    },
+    {
+      "id": "O0009",
+      "customerId": "C163",
+      "total": 277.84,
+      "dateCreated": "2026-03-13T15:52:48Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "TikTok Ads",
+      "discount": 24.16,
+      "itemsCount": 4,
+      "lineItems": [
+        {
+          "productId": "P016",
+          "quantity": 1,
+          "total": 76
+        },
+        {
+          "productId": "P006",
+          "quantity": 2,
+          "total": 116
+        },
+        {
+          "productId": "P007",
+          "quantity": 1,
+          "total": 110
+        }
+      ]
+    },
+    {
+      "id": "O0010",
+      "customerId": "C010",
+      "total": 72.0,
+      "dateCreated": "2026-03-13T22:32:52Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Email CRM",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P011",
+          "quantity": 1,
+          "total": 72
+        }
+      ]
+    },
+    {
+      "id": "O0011",
+      "customerId": "C169",
+      "total": 95.0,
+      "dateCreated": "2026-03-13T21:31:40Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Facebook Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P002",
+          "quantity": 1,
+          "total": 95
+        }
+      ]
+    },
+    {
+      "id": "O0012",
+      "customerId": "C014",
+      "total": 64.0,
+      "dateCreated": "2026-03-13T10:01:40Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Instagram Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P010",
+          "quantity": 1,
+          "total": 64
+        }
+      ]
+    },
+    {
+      "id": "O0013",
+      "customerId": "C062",
+      "total": 158.0,
+      "dateCreated": "2026-03-13T22:58:07Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "TikTok Ads",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P001",
+          "quantity": 2,
+          "total": 158
+        }
+      ]
+    },
+    {
+      "id": "O0014",
+      "customerId": "C031",
+      "total": 64.0,
+      "dateCreated": "2026-03-13T22:30:30Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Direct",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P010",
+          "quantity": 1,
+          "total": 64
+        }
+      ]
+    },
+    {
+      "id": "O0015",
+      "customerId": "C117",
+      "total": 84.0,
+      "dateCreated": "2026-03-13T21:54:26Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Email CRM",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P005",
+          "quantity": 2,
+          "total": 84
+        }
+      ]
+    },
+    {
+      "id": "O0016",
+      "customerId": "C130",
+      "total": 128.0,
+      "dateCreated": "2026-03-13T19:31:55Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Instagram Ads",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P010",
+          "quantity": 2,
+          "total": 128
+        }
+      ]
+    },
+    {
+      "id": "O0017",
+      "customerId": "C115",
+      "total": 99.0,
+      "dateCreated": "2026-03-13T12:44:15Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Email CRM",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P013",
+          "quantity": 1,
+          "total": 99
+        }
+      ]
+    },
+    {
+      "id": "O0018",
+      "customerId": "C099",
+      "total": 281.52,
+      "dateCreated": "2026-03-13T19:50:52Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Instagram Ads",
+      "discount": 24.48,
+      "itemsCount": 4,
+      "lineItems": [
+        {
+          "productId": "P002",
+          "quantity": 2,
+          "total": 190
+        },
+        {
+          "productId": "P006",
+          "quantity": 2,
+          "total": 116
+        }
+      ]
+    },
+    {
+      "id": "O0019",
+      "customerId": "C039",
+      "total": 144.0,
+      "dateCreated": "2026-03-13T16:06:33Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Email CRM",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P011",
+          "quantity": 2,
+          "total": 144
+        }
+      ]
+    },
+    {
+      "id": "O0020",
+      "customerId": "C004",
+      "total": 42.0,
+      "dateCreated": "2026-03-13T13:21:39Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "TikTok Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P005",
+          "quantity": 1,
+          "total": 42
+        }
+      ]
+    },
+    {
+      "id": "O0021",
+      "customerId": "C173",
+      "total": 72.0,
+      "dateCreated": "2026-03-14T16:55:34Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "TikTok Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P011",
+          "quantity": 1,
+          "total": 72
+        }
+      ]
+    },
+    {
+      "id": "O0022",
+      "customerId": "C159",
+      "total": 180.32,
+      "dateCreated": "2026-03-14T22:06:28Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Organic Search",
+      "discount": 15.68,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P010",
+          "quantity": 2,
+          "total": 128
+        },
+        {
+          "productId": "P004",
+          "quantity": 1,
+          "total": 68
+        }
+      ]
+    },
+    {
+      "id": "O0023",
+      "customerId": "C178",
+      "total": 144.0,
+      "dateCreated": "2026-03-14T14:27:09Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Instagram Ads",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P011",
+          "quantity": 2,
+          "total": 144
+        }
+      ]
+    },
+    {
+      "id": "O0024",
+      "customerId": "C136",
+      "total": 178.0,
+      "dateCreated": "2026-03-14T16:58:37Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Instagram Ads",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P006",
+          "quantity": 1,
+          "total": 58
+        },
+        {
+          "productId": "P003",
+          "quantity": 1,
+          "total": 120
+        }
+      ]
+    },
+    {
+      "id": "O0025",
+      "customerId": "C060",
+      "total": 29.0,
+      "dateCreated": "2026-03-14T16:57:18Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Email CRM",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P009",
+          "quantity": 1,
+          "total": 29
+        }
+      ]
+    },
+    {
+      "id": "O0026",
+      "customerId": "C140",
+      "total": 242.88,
+      "dateCreated": "2026-03-14T15:44:16Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Organic Search",
+      "discount": 21.12,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P012",
+          "quantity": 3,
+          "total": 264
+        }
+      ]
+    },
+    {
+      "id": "O0027",
+      "customerId": "C078",
+      "total": 76.0,
+      "dateCreated": "2026-03-14T14:36:18Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Instagram Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P016",
+          "quantity": 1,
+          "total": 76
+        }
+      ]
+    },
+    {
+      "id": "O0028",
+      "customerId": "C076",
+      "total": 168.36,
+      "dateCreated": "2026-03-14T18:47:31Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Organic Search",
+      "discount": 14.64,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P013",
+          "quantity": 1,
+          "total": 99
+        },
+        {
+          "productId": "P005",
+          "quantity": 2,
+          "total": 84
+        }
+      ]
+    },
+    {
+      "id": "O0029",
+      "customerId": "C059",
+      "total": 110.0,
+      "dateCreated": "2026-03-14T20:49:42Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Direct",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P007",
+          "quantity": 1,
+          "total": 110
+        }
+      ]
+    },
+    {
+      "id": "O0030",
+      "customerId": "C036",
+      "total": 217.12,
+      "dateCreated": "2026-03-14T11:12:08Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Direct",
+      "discount": 18.88,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P002",
+          "quantity": 1,
+          "total": 95
+        },
+        {
+          "productId": "P005",
+          "quantity": 1,
+          "total": 42
+        },
+        {
+          "productId": "P013",
+          "quantity": 1,
+          "total": 99
+        }
+      ]
+    },
+    {
+      "id": "O0031",
+      "customerId": "C094",
+      "total": 211.6,
+      "dateCreated": "2026-03-14T10:09:48Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Email CRM",
+      "discount": 18.4,
+      "itemsCount": 5,
+      "lineItems": [
+        {
+          "productId": "P006",
+          "quantity": 2,
+          "total": 116
+        },
+        {
+          "productId": "P005",
+          "quantity": 1,
+          "total": 42
+        },
+        {
+          "productId": "P014",
+          "quantity": 2,
+          "total": 72
+        }
+      ]
+    },
+    {
+      "id": "O0032",
+      "customerId": "C174",
+      "total": 350.52,
+      "dateCreated": "2026-03-14T15:52:40Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "TikTok Ads",
+      "discount": 30.48,
+      "itemsCount": 4,
+      "lineItems": [
+        {
+          "productId": "P012",
+          "quantity": 1,
+          "total": 88
+        },
+        {
+          "productId": "P002",
+          "quantity": 1,
+          "total": 95
+        },
+        {
+          "productId": "P013",
+          "quantity": 2,
+          "total": 198
+        }
+      ]
+    },
+    {
+      "id": "O0033",
+      "customerId": "C028",
+      "total": 144.0,
+      "dateCreated": "2026-03-14T10:40:52Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "TikTok Ads",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P011",
+          "quantity": 2,
+          "total": 144
+        }
+      ]
+    },
+    {
+      "id": "O0034",
+      "customerId": "C180",
+      "total": 84.0,
+      "dateCreated": "2026-03-14T16:07:06Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Instagram Ads",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P005",
+          "quantity": 2,
+          "total": 84
+        }
+      ]
+    },
+    {
+      "id": "O0035",
+      "customerId": "C095",
+      "total": 136.0,
+      "dateCreated": "2026-03-15T16:39:26Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "TikTok Ads",
+      "discount": 0.0,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P014",
+          "quantity": 2,
+          "total": 72
+        },
+        {
+          "productId": "P010",
+          "quantity": 1,
+          "total": 64
+        }
+      ]
+    },
+    {
+      "id": "O0036",
+      "customerId": "C009",
+      "total": 72.0,
+      "dateCreated": "2026-03-15T10:43:23Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "TikTok Ads",
+      "discount": 0.0,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P015",
+          "quantity": 3,
+          "total": 72
+        }
+      ]
+    },
+    {
+      "id": "O0037",
+      "customerId": "C166",
+      "total": 303.6,
+      "dateCreated": "2026-03-15T22:29:05Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Instagram Ads",
+      "discount": 26.4,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P007",
+          "quantity": 3,
+          "total": 330
+        }
+      ]
+    },
+    {
+      "id": "O0038",
+      "customerId": "C055",
+      "total": 215.28,
+      "dateCreated": "2026-03-15T10:53:48Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Direct",
+      "discount": 18.72,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P001",
+          "quantity": 2,
+          "total": 158
+        },
+        {
+          "productId": "P016",
+          "quantity": 1,
+          "total": 76
+        }
+      ]
+    },
+    {
+      "id": "O0039",
+      "customerId": "C054",
+      "total": 320.16,
+      "dateCreated": "2026-03-15T11:08:34Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Direct",
+      "discount": 27.84,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P008",
+          "quantity": 2,
+          "total": 290
+        },
+        {
+          "productId": "P006",
+          "quantity": 1,
+          "total": 58
+        }
+      ]
+    },
+    {
+      "id": "O0040",
+      "customerId": "C045",
+      "total": 184.0,
+      "dateCreated": "2026-03-15T13:03:08Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Organic Search",
+      "discount": 16.0,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P005",
+          "quantity": 1,
+          "total": 42
+        },
+        {
+          "productId": "P001",
+          "quantity": 2,
+          "total": 158
+        }
+      ]
+    },
+    {
+      "id": "O0041",
+      "customerId": "C108",
+      "total": 273.24,
+      "dateCreated": "2026-03-15T18:02:46Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Email CRM",
+      "discount": 23.76,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P016",
+          "quantity": 2,
+          "total": 152
+        },
+        {
+          "productId": "P008",
+          "quantity": 1,
+          "total": 145
+        }
+      ]
+    },
+    {
+      "id": "O0042",
+      "customerId": "C134",
+      "total": 287.96,
+      "dateCreated": "2026-03-15T20:58:28Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Instagram Ads",
+      "discount": 25.04,
+      "itemsCount": 4,
+      "lineItems": [
+        {
+          "productId": "P001",
+          "quantity": 3,
+          "total": 237
+        },
+        {
+          "productId": "P016",
+          "quantity": 1,
+          "total": 76
+        }
+      ]
+    },
+    {
+      "id": "O0043",
+      "customerId": "C021",
+      "total": 42.0,
+      "dateCreated": "2026-03-15T17:45:20Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Instagram Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P005",
+          "quantity": 1,
+          "total": 42
+        }
+      ]
+    },
+    {
+      "id": "O0044",
+      "customerId": "C155",
+      "total": 104.0,
+      "dateCreated": "2026-03-16T15:28:56Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Email CRM",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P004",
+          "quantity": 1,
+          "total": 68
+        },
+        {
+          "productId": "P014",
+          "quantity": 1,
+          "total": 36
+        }
+      ]
+    },
+    {
+      "id": "O0045",
+      "customerId": "C106",
+      "total": 36.0,
+      "dateCreated": "2026-03-16T14:42:16Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Instagram Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P014",
+          "quantity": 1,
+          "total": 36
+        }
+      ]
+    },
+    {
+      "id": "O0046",
+      "customerId": "C040",
+      "total": 220.8,
+      "dateCreated": "2026-03-16T10:47:47Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "TikTok Ads",
+      "discount": 19.2,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P003",
+          "quantity": 2,
+          "total": 240
+        }
+      ]
+    },
+    {
+      "id": "O0047",
+      "customerId": "C034",
+      "total": 148.0,
+      "dateCreated": "2026-03-16T22:58:46Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Email CRM",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P011",
+          "quantity": 1,
+          "total": 72
+        },
+        {
+          "productId": "P016",
+          "quantity": 1,
+          "total": 76
+        }
+      ]
+    },
+    {
+      "id": "O0048",
+      "customerId": "C074",
+      "total": 110.0,
+      "dateCreated": "2026-03-16T22:06:22Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Direct",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P007",
+          "quantity": 1,
+          "total": 110
+        }
+      ]
+    },
+    {
+      "id": "O0049",
+      "customerId": "C095",
+      "total": 266.8,
+      "dateCreated": "2026-03-16T21:52:39Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Organic Search",
+      "discount": 23.2,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P008",
+          "quantity": 2,
+          "total": 290
+        }
+      ]
+    },
+    {
+      "id": "O0050",
+      "customerId": "C173",
+      "total": 29.0,
+      "dateCreated": "2026-03-16T21:19:58Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Direct",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P009",
+          "quantity": 1,
+          "total": 29
+        }
+      ]
+    },
+    {
+      "id": "O0051",
+      "customerId": "C090",
+      "total": 178.48,
+      "dateCreated": "2026-03-16T12:24:26Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Organic Search",
+      "discount": 15.52,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P013",
+          "quantity": 1,
+          "total": 99
+        },
+        {
+          "productId": "P002",
+          "quantity": 1,
+          "total": 95
+        }
+      ]
+    },
+    {
+      "id": "O0052",
+      "customerId": "C088",
+      "total": 144.0,
+      "dateCreated": "2026-03-16T10:56:03Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Organic Search",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P011",
+          "quantity": 2,
+          "total": 144
+        }
+      ]
+    },
+    {
+      "id": "O0053",
+      "customerId": "C041",
+      "total": 120.0,
+      "dateCreated": "2026-03-16T16:38:28Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "TikTok Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P003",
+          "quantity": 1,
+          "total": 120
+        }
+      ]
+    },
+    {
+      "id": "O0054",
+      "customerId": "C030",
+      "total": 76.0,
+      "dateCreated": "2026-03-17T12:25:38Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Instagram Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P016",
+          "quantity": 1,
+          "total": 76
+        }
+      ]
+    },
+    {
+      "id": "O0055",
+      "customerId": "C002",
+      "total": 199.64,
+      "dateCreated": "2026-03-17T12:32:35Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Instagram Ads",
+      "discount": 17.36,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P005",
+          "quantity": 1,
+          "total": 42
+        },
+        {
+          "productId": "P013",
+          "quantity": 1,
+          "total": 99
+        },
+        {
+          "productId": "P016",
+          "quantity": 1,
+          "total": 76
+        }
+      ]
+    },
+    {
+      "id": "O0056",
+      "customerId": "C091",
+      "total": 289.8,
+      "dateCreated": "2026-03-17T18:25:45Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Organic Search",
+      "discount": 25.2,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P002",
+          "quantity": 1,
+          "total": 95
+        },
+        {
+          "productId": "P007",
+          "quantity": 2,
+          "total": 220
+        }
+      ]
+    },
+    {
+      "id": "O0057",
+      "customerId": "C107",
+      "total": 72.0,
+      "dateCreated": "2026-03-17T16:53:44Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Instagram Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P011",
+          "quantity": 1,
+          "total": 72
+        }
+      ]
+    },
+    {
+      "id": "O0058",
+      "customerId": "C023",
+      "total": 36.0,
+      "dateCreated": "2026-03-17T15:55:19Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Email CRM",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P014",
+          "quantity": 1,
+          "total": 36
+        }
+      ]
+    },
+    {
+      "id": "O0059",
+      "customerId": "C087",
+      "total": 149.0,
+      "dateCreated": "2026-03-17T14:46:52Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Instagram Ads",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P003",
+          "quantity": 1,
+          "total": 120
+        },
+        {
+          "productId": "P009",
+          "quantity": 1,
+          "total": 29
+        }
+      ]
+    },
+    {
+      "id": "O0060",
+      "customerId": "C038",
+      "total": 110.0,
+      "dateCreated": "2026-03-17T21:41:04Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Instagram Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P007",
+          "quantity": 1,
+          "total": 110
+        }
+      ]
+    },
+    {
+      "id": "O0061",
+      "customerId": "C161",
+      "total": 120.0,
+      "dateCreated": "2026-03-17T22:40:20Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Email CRM",
+      "discount": 0.0,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P015",
+          "quantity": 2,
+          "total": 48
+        },
+        {
+          "productId": "P011",
+          "quantity": 1,
+          "total": 72
+        }
+      ]
+    },
+    {
+      "id": "O0062",
+      "customerId": "C113",
+      "total": 128.0,
+      "dateCreated": "2026-03-17T14:32:04Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Organic Search",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P010",
+          "quantity": 2,
+          "total": 128
+        }
+      ]
+    },
+    {
+      "id": "O0063",
+      "customerId": "C119",
+      "total": 64.0,
+      "dateCreated": "2026-03-17T22:05:39Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Email CRM",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P010",
+          "quantity": 1,
+          "total": 64
+        }
+      ]
+    },
+    {
+      "id": "O0064",
+      "customerId": "C130",
+      "total": 308.2,
+      "dateCreated": "2026-03-17T17:09:03Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Instagram Ads",
+      "discount": 26.8,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P002",
+          "quantity": 2,
+          "total": 190
+        },
+        {
+          "productId": "P008",
+          "quantity": 1,
+          "total": 145
+        }
+      ]
+    },
+    {
+      "id": "O0065",
+      "customerId": "C022",
+      "total": 145.0,
+      "dateCreated": "2026-03-18T17:33:39Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Email CRM",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P008",
+          "quantity": 1,
+          "total": 145
+        }
+      ]
+    },
+    {
+      "id": "O0066",
+      "customerId": "C094",
+      "total": 72.0,
+      "dateCreated": "2026-03-18T09:50:40Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Instagram Ads",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P014",
+          "quantity": 2,
+          "total": 72
+        }
+      ]
+    },
+    {
+      "id": "O0067",
+      "customerId": "C086",
+      "total": 99.0,
+      "dateCreated": "2026-03-18T19:58:38Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Organic Search",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P013",
+          "quantity": 1,
+          "total": 99
+        }
+      ]
+    },
+    {
+      "id": "O0068",
+      "customerId": "C086",
+      "total": 281.52,
+      "dateCreated": "2026-03-18T10:19:35Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Organic Search",
+      "discount": 24.48,
+      "itemsCount": 4,
+      "lineItems": [
+        {
+          "productId": "P012",
+          "quantity": 3,
+          "total": 264
+        },
+        {
+          "productId": "P005",
+          "quantity": 1,
+          "total": 42
+        }
+      ]
+    },
+    {
+      "id": "O0069",
+      "customerId": "C165",
+      "total": 176.64,
+      "dateCreated": "2026-03-18T12:21:49Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "TikTok Ads",
+      "discount": 15.36,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P003",
+          "quantity": 1,
+          "total": 120
+        },
+        {
+          "productId": "P011",
+          "quantity": 1,
+          "total": 72
+        }
+      ]
+    },
+    {
+      "id": "O0070",
+      "customerId": "C050",
+      "total": 120.0,
+      "dateCreated": "2026-03-18T17:49:34Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Instagram Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P003",
+          "quantity": 1,
+          "total": 120
+        }
+      ]
+    },
+    {
+      "id": "O0071",
+      "customerId": "C135",
+      "total": 42.0,
+      "dateCreated": "2026-03-18T11:53:44Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Organic Search",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P005",
+          "quantity": 1,
+          "total": 42
+        }
+      ]
+    },
+    {
+      "id": "O0072",
+      "customerId": "C043",
+      "total": 88.0,
+      "dateCreated": "2026-03-18T16:39:18Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "TikTok Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P012",
+          "quantity": 1,
+          "total": 88
+        }
+      ]
+    },
+    {
+      "id": "O0073",
+      "customerId": "C062",
+      "total": 184.0,
+      "dateCreated": "2026-03-19T16:49:18Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Instagram Ads",
+      "discount": 16.0,
+      "itemsCount": 4,
+      "lineItems": [
+        {
+          "productId": "P016",
+          "quantity": 2,
+          "total": 152
+        },
+        {
+          "productId": "P015",
+          "quantity": 2,
+          "total": 48
+        }
+      ]
+    },
+    {
+      "id": "O0074",
+      "customerId": "C129",
+      "total": 251.16,
+      "dateCreated": "2026-03-19T22:33:54Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Email CRM",
+      "discount": 21.84,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P007",
+          "quantity": 1,
+          "total": 110
+        },
+        {
+          "productId": "P013",
+          "quantity": 1,
+          "total": 99
+        },
+        {
+          "productId": "P010",
+          "quantity": 1,
+          "total": 64
+        }
+      ]
+    },
+    {
+      "id": "O0075",
+      "customerId": "C073",
+      "total": 48.0,
+      "dateCreated": "2026-03-19T15:05:58Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Organic Search",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P015",
+          "quantity": 2,
+          "total": 48
+        }
+      ]
+    },
+    {
+      "id": "O0076",
+      "customerId": "C116",
+      "total": 352.36,
+      "dateCreated": "2026-03-19T22:45:41Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Facebook Ads",
+      "discount": 30.64,
+      "itemsCount": 5,
+      "lineItems": [
+        {
+          "productId": "P014",
+          "quantity": 1,
+          "total": 36
+        },
+        {
+          "productId": "P001",
+          "quantity": 3,
+          "total": 237
+        },
+        {
+          "productId": "P007",
+          "quantity": 1,
+          "total": 110
+        }
+      ]
+    },
+    {
+      "id": "O0077",
+      "customerId": "C038",
+      "total": 76.0,
+      "dateCreated": "2026-03-19T20:30:28Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Organic Search",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P016",
+          "quantity": 1,
+          "total": 76
+        }
+      ]
+    },
+    {
+      "id": "O0078",
+      "customerId": "C002",
+      "total": 202.4,
+      "dateCreated": "2026-03-19T20:38:33Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Facebook Ads",
+      "discount": 17.6,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P007",
+          "quantity": 2,
+          "total": 220
+        }
+      ]
+    },
+    {
+      "id": "O0079",
+      "customerId": "C029",
+      "total": 68.0,
+      "dateCreated": "2026-03-19T21:39:29Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "TikTok Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P004",
+          "quantity": 1,
+          "total": 68
+        }
+      ]
+    },
+    {
+      "id": "O0080",
+      "customerId": "C029",
+      "total": 79.0,
+      "dateCreated": "2026-03-19T20:09:18Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "TikTok Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P001",
+          "quantity": 1,
+          "total": 79
+        }
+      ]
+    },
+    {
+      "id": "O0081",
+      "customerId": "C001",
+      "total": 36.0,
+      "dateCreated": "2026-03-19T17:23:04Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Direct",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P014",
+          "quantity": 1,
+          "total": 36
+        }
+      ]
+    },
+    {
+      "id": "O0082",
+      "customerId": "C140",
+      "total": 409.4,
+      "dateCreated": "2026-03-19T14:15:46Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Email CRM",
+      "discount": 35.6,
+      "itemsCount": 5,
+      "lineItems": [
+        {
+          "productId": "P001",
+          "quantity": 1,
+          "total": 79
+        },
+        {
+          "productId": "P007",
+          "quantity": 3,
+          "total": 330
+        },
+        {
+          "productId": "P014",
+          "quantity": 1,
+          "total": 36
+        }
+      ]
+    },
+    {
+      "id": "O0083",
+      "customerId": "C161",
+      "total": 287.04,
+      "dateCreated": "2026-03-19T21:43:29Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Organic Search",
+      "discount": 24.96,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P011",
+          "quantity": 1,
+          "total": 72
+        },
+        {
+          "productId": "P003",
+          "quantity": 2,
+          "total": 240
+        }
+      ]
+    },
+    {
+      "id": "O0084",
+      "customerId": "C123",
+      "total": 301.76,
+      "dateCreated": "2026-03-19T12:56:02Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Direct",
+      "discount": 26.24,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P003",
+          "quantity": 2,
+          "total": 240
+        },
+        {
+          "productId": "P012",
+          "quantity": 1,
+          "total": 88
+        }
+      ]
+    },
+    {
+      "id": "O0085",
+      "customerId": "C140",
+      "total": 110.0,
+      "dateCreated": "2026-03-20T09:55:41Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Email CRM",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P007",
+          "quantity": 1,
+          "total": 110
+        }
+      ]
+    },
+    {
+      "id": "O0086",
+      "customerId": "C070",
+      "total": 182.16,
+      "dateCreated": "2026-03-20T15:21:11Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Organic Search",
+      "discount": 15.84,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P013",
+          "quantity": 2,
+          "total": 198
+        }
+      ]
+    },
+    {
+      "id": "O0087",
+      "customerId": "C178",
+      "total": 205.16,
+      "dateCreated": "2026-03-20T10:20:42Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Email CRM",
+      "discount": 17.84,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P009",
+          "quantity": 1,
+          "total": 29
+        },
+        {
+          "productId": "P013",
+          "quantity": 1,
+          "total": 99
+        },
+        {
+          "productId": "P002",
+          "quantity": 1,
+          "total": 95
+        }
+      ]
+    },
+    {
+      "id": "O0088",
+      "customerId": "C079",
+      "total": 146.0,
+      "dateCreated": "2026-03-20T18:27:17Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Email CRM",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P006",
+          "quantity": 1,
+          "total": 58
+        },
+        {
+          "productId": "P012",
+          "quantity": 1,
+          "total": 88
+        }
+      ]
+    },
+    {
+      "id": "O0089",
+      "customerId": "C015",
+      "total": 241.96,
+      "dateCreated": "2026-03-20T18:43:50Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Organic Search",
+      "discount": 21.04,
+      "itemsCount": 5,
+      "lineItems": [
+        {
+          "productId": "P012",
+          "quantity": 2,
+          "total": 176
+        },
+        {
+          "productId": "P009",
+          "quantity": 3,
+          "total": 87
+        }
+      ]
+    },
+    {
+      "id": "O0090",
+      "customerId": "C009",
+      "total": 88.0,
+      "dateCreated": "2026-03-20T09:38:09Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Organic Search",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P012",
+          "quantity": 1,
+          "total": 88
+        }
+      ]
+    },
+    {
+      "id": "O0091",
+      "customerId": "C116",
+      "total": 120.0,
+      "dateCreated": "2026-03-20T15:20:41Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Facebook Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P003",
+          "quantity": 1,
+          "total": 120
+        }
+      ]
+    },
+    {
+      "id": "O0092",
+      "customerId": "C064",
+      "total": 58.0,
+      "dateCreated": "2026-03-20T17:07:16Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Facebook Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P006",
+          "quantity": 1,
+          "total": 58
+        }
+      ]
+    },
+    {
+      "id": "O0093",
+      "customerId": "C115",
+      "total": 144.0,
+      "dateCreated": "2026-03-20T16:05:51Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Instagram Ads",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P016",
+          "quantity": 1,
+          "total": 76
+        },
+        {
+          "productId": "P004",
+          "quantity": 1,
+          "total": 68
+        }
+      ]
+    },
+    {
+      "id": "O0094",
+      "customerId": "C082",
+      "total": 88.0,
+      "dateCreated": "2026-03-20T11:50:23Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "TikTok Ads",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P010",
+          "quantity": 1,
+          "total": 64
+        },
+        {
+          "productId": "P015",
+          "quantity": 1,
+          "total": 24
+        }
+      ]
+    },
+    {
+      "id": "O0095",
+      "customerId": "C058",
+      "total": 42.0,
+      "dateCreated": "2026-03-20T14:35:36Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Organic Search",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P005",
+          "quantity": 1,
+          "total": 42
+        }
+      ]
+    },
+    {
+      "id": "O0096",
+      "customerId": "C120",
+      "total": 120.0,
+      "dateCreated": "2026-03-20T20:46:30Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "TikTok Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P003",
+          "quantity": 1,
+          "total": 120
+        }
+      ]
+    },
+    {
+      "id": "O0097",
+      "customerId": "C106",
+      "total": 401.12,
+      "dateCreated": "2026-03-20T14:08:56Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "TikTok Ads",
+      "discount": 34.88,
+      "itemsCount": 4,
+      "lineItems": [
+        {
+          "productId": "P003",
+          "quantity": 3,
+          "total": 360
+        },
+        {
+          "productId": "P016",
+          "quantity": 1,
+          "total": 76
+        }
+      ]
+    },
+    {
+      "id": "O0098",
+      "customerId": "C164",
+      "total": 241.04,
+      "dateCreated": "2026-03-20T13:10:10Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Direct",
+      "discount": 20.96,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P005",
+          "quantity": 1,
+          "total": 42
+        },
+        {
+          "productId": "P007",
+          "quantity": 2,
+          "total": 220
+        }
+      ]
+    },
+    {
+      "id": "O0099",
+      "customerId": "C073",
+      "total": 29.0,
+      "dateCreated": "2026-03-21T17:05:32Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "TikTok Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P009",
+          "quantity": 1,
+          "total": 29
+        }
+      ]
+    },
+    {
+      "id": "O0100",
+      "customerId": "C044",
+      "total": 130.0,
+      "dateCreated": "2026-03-21T09:52:55Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Direct",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P006",
+          "quantity": 1,
+          "total": 58
+        },
+        {
+          "productId": "P011",
+          "quantity": 1,
+          "total": 72
+        }
+      ]
+    },
+    {
+      "id": "O0101",
+      "customerId": "C021",
+      "total": 101.0,
+      "dateCreated": "2026-03-21T19:34:18Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Organic Search",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P009",
+          "quantity": 1,
+          "total": 29
+        },
+        {
+          "productId": "P011",
+          "quantity": 1,
+          "total": 72
+        }
+      ]
+    },
+    {
+      "id": "O0102",
+      "customerId": "C078",
+      "total": 141.0,
+      "dateCreated": "2026-03-21T16:13:21Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Email CRM",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P013",
+          "quantity": 1,
+          "total": 99
+        },
+        {
+          "productId": "P005",
+          "quantity": 1,
+          "total": 42
+        }
+      ]
+    },
+    {
+      "id": "O0103",
+      "customerId": "C037",
+      "total": 182.16,
+      "dateCreated": "2026-03-21T16:07:17Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Instagram Ads",
+      "discount": 15.84,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P012",
+          "quantity": 1,
+          "total": 88
+        },
+        {
+          "productId": "P007",
+          "quantity": 1,
+          "total": 110
+        }
+      ]
+    },
+    {
+      "id": "O0104",
+      "customerId": "C064",
+      "total": 182.16,
+      "dateCreated": "2026-03-21T22:57:10Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Organic Search",
+      "discount": 15.84,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P013",
+          "quantity": 2,
+          "total": 198
+        }
+      ]
+    },
+    {
+      "id": "O0105",
+      "customerId": "C148",
+      "total": 58.0,
+      "dateCreated": "2026-03-21T16:56:19Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "TikTok Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P006",
+          "quantity": 1,
+          "total": 58
+        }
+      ]
+    },
+    {
+      "id": "O0106",
+      "customerId": "C006",
+      "total": 72.0,
+      "dateCreated": "2026-03-21T14:03:03Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Organic Search",
+      "discount": 0.0,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P015",
+          "quantity": 3,
+          "total": 72
+        }
+      ]
+    },
+    {
+      "id": "O0107",
+      "customerId": "C127",
+      "total": 118.0,
+      "dateCreated": "2026-03-21T20:23:48Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Direct",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P016",
+          "quantity": 1,
+          "total": 76
+        },
+        {
+          "productId": "P005",
+          "quantity": 1,
+          "total": 42
+        }
+      ]
+    },
+    {
+      "id": "O0108",
+      "customerId": "C094",
+      "total": 110.0,
+      "dateCreated": "2026-03-21T15:32:28Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Organic Search",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P007",
+          "quantity": 1,
+          "total": 110
+        }
+      ]
+    },
+    {
+      "id": "O0109",
+      "customerId": "C072",
+      "total": 408.48,
+      "dateCreated": "2026-03-21T14:48:09Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "TikTok Ads",
+      "discount": 35.52,
+      "itemsCount": 5,
+      "lineItems": [
+        {
+          "productId": "P004",
+          "quantity": 3,
+          "total": 204
+        },
+        {
+          "productId": "P003",
+          "quantity": 2,
+          "total": 240
+        }
+      ]
+    },
+    {
+      "id": "O0110",
+      "customerId": "C155",
+      "total": 95.0,
+      "dateCreated": "2026-03-21T21:30:33Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Email CRM",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P002",
+          "quantity": 1,
+          "total": 95
+        }
+      ]
+    },
+    {
+      "id": "O0111",
+      "customerId": "C036",
+      "total": 261.28,
+      "dateCreated": "2026-03-22T22:32:34Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Instagram Ads",
+      "discount": 22.72,
+      "itemsCount": 4,
+      "lineItems": [
+        {
+          "productId": "P006",
+          "quantity": 3,
+          "total": 174
+        },
+        {
+          "productId": "P007",
+          "quantity": 1,
+          "total": 110
+        }
+      ]
+    },
+    {
+      "id": "O0112",
+      "customerId": "C145",
+      "total": 146.0,
+      "dateCreated": "2026-03-22T20:55:44Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Instagram Ads",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P012",
+          "quantity": 1,
+          "total": 88
+        },
+        {
+          "productId": "P006",
+          "quantity": 1,
+          "total": 58
+        }
+      ]
+    },
+    {
+      "id": "O0113",
+      "customerId": "C007",
+      "total": 145.0,
+      "dateCreated": "2026-03-22T11:33:40Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Direct",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P008",
+          "quantity": 1,
+          "total": 145
+        }
+      ]
+    },
+    {
+      "id": "O0114",
+      "customerId": "C159",
+      "total": 145.0,
+      "dateCreated": "2026-03-22T10:12:01Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "TikTok Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P008",
+          "quantity": 1,
+          "total": 145
+        }
+      ]
+    },
+    {
+      "id": "O0115",
+      "customerId": "C081",
+      "total": 110.0,
+      "dateCreated": "2026-03-22T16:55:54Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Instagram Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P007",
+          "quantity": 1,
+          "total": 110
+        }
+      ]
+    },
+    {
+      "id": "O0116",
+      "customerId": "C016",
+      "total": 198.72,
+      "dateCreated": "2026-03-22T15:20:11Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "TikTok Ads",
+      "discount": 17.28,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P011",
+          "quantity": 3,
+          "total": 216
+        }
+      ]
+    },
+    {
+      "id": "O0117",
+      "customerId": "C137",
+      "total": 29.0,
+      "dateCreated": "2026-03-22T12:17:35Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Instagram Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P009",
+          "quantity": 1,
+          "total": 29
+        }
+      ]
+    },
+    {
+      "id": "O0118",
+      "customerId": "C058",
+      "total": 264.96,
+      "dateCreated": "2026-03-22T13:07:36Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Facebook Ads",
+      "discount": 23.04,
+      "itemsCount": 4,
+      "lineItems": [
+        {
+          "productId": "P010",
+          "quantity": 1,
+          "total": 64
+        },
+        {
+          "productId": "P012",
+          "quantity": 1,
+          "total": 88
+        },
+        {
+          "productId": "P004",
+          "quantity": 2,
+          "total": 136
+        }
+      ]
+    },
+    {
+      "id": "O0119",
+      "customerId": "C140",
+      "total": 398.36,
+      "dateCreated": "2026-03-22T20:30:13Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Instagram Ads",
+      "discount": 34.64,
+      "itemsCount": 6,
+      "lineItems": [
+        {
+          "productId": "P012",
+          "quantity": 1,
+          "total": 88
+        },
+        {
+          "productId": "P013",
+          "quantity": 3,
+          "total": 297
+        },
+        {
+          "productId": "P015",
+          "quantity": 2,
+          "total": 48
+        }
+      ]
+    },
+    {
+      "id": "O0120",
+      "customerId": "C070",
+      "total": 195.96,
+      "dateCreated": "2026-03-23T10:26:21Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Organic Search",
+      "discount": 17.04,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P008",
+          "quantity": 1,
+          "total": 145
+        },
+        {
+          "productId": "P004",
+          "quantity": 1,
+          "total": 68
+        }
+      ]
+    },
+    {
+      "id": "O0121",
+      "customerId": "C121",
+      "total": 244.72,
+      "dateCreated": "2026-03-23T16:30:41Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Organic Search",
+      "discount": 21.28,
+      "itemsCount": 4,
+      "lineItems": [
+        {
+          "productId": "P001",
+          "quantity": 3,
+          "total": 237
+        },
+        {
+          "productId": "P009",
+          "quantity": 1,
+          "total": 29
+        }
+      ]
+    },
+    {
+      "id": "O0122",
+      "customerId": "C074",
+      "total": 176.64,
+      "dateCreated": "2026-03-23T11:26:56Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Instagram Ads",
+      "discount": 15.36,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P003",
+          "quantity": 1,
+          "total": 120
+        },
+        {
+          "productId": "P011",
+          "quantity": 1,
+          "total": 72
+        }
+      ]
+    },
+    {
+      "id": "O0123",
+      "customerId": "C010",
+      "total": 76.0,
+      "dateCreated": "2026-03-23T22:59:18Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Facebook Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P016",
+          "quantity": 1,
+          "total": 76
+        }
+      ]
+    },
+    {
+      "id": "O0124",
+      "customerId": "C003",
+      "total": 114.0,
+      "dateCreated": "2026-03-23T11:54:32Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Instagram Ads",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P011",
+          "quantity": 1,
+          "total": 72
+        },
+        {
+          "productId": "P005",
+          "quantity": 1,
+          "total": 42
+        }
+      ]
+    },
+    {
+      "id": "O0125",
+      "customerId": "C070",
+      "total": 58.0,
+      "dateCreated": "2026-03-23T20:11:00Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Instagram Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P006",
+          "quantity": 1,
+          "total": 58
+        }
+      ]
+    },
+    {
+      "id": "O0126",
+      "customerId": "C087",
+      "total": 110.0,
+      "dateCreated": "2026-03-23T15:52:27Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "TikTok Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P007",
+          "quantity": 1,
+          "total": 110
+        }
+      ]
+    },
+    {
+      "id": "O0127",
+      "customerId": "C084",
+      "total": 178.0,
+      "dateCreated": "2026-03-23T16:48:17Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Organic Search",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P006",
+          "quantity": 1,
+          "total": 58
+        },
+        {
+          "productId": "P003",
+          "quantity": 1,
+          "total": 120
+        }
+      ]
+    },
+    {
+      "id": "O0128",
+      "customerId": "C078",
+      "total": 29.0,
+      "dateCreated": "2026-03-23T09:42:07Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Direct",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P009",
+          "quantity": 1,
+          "total": 29
+        }
+      ]
+    },
+    {
+      "id": "O0129",
+      "customerId": "C079",
+      "total": 152.0,
+      "dateCreated": "2026-03-23T12:08:30Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Organic Search",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P010",
+          "quantity": 1,
+          "total": 64
+        },
+        {
+          "productId": "P012",
+          "quantity": 1,
+          "total": 88
+        }
+      ]
+    },
+    {
+      "id": "O0130",
+      "customerId": "C107",
+      "total": 345.92,
+      "dateCreated": "2026-03-24T18:07:03Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "TikTok Ads",
+      "discount": 30.08,
+      "itemsCount": 4,
+      "lineItems": [
+        {
+          "productId": "P007",
+          "quantity": 1,
+          "total": 110
+        },
+        {
+          "productId": "P013",
+          "quantity": 2,
+          "total": 198
+        },
+        {
+          "productId": "P004",
+          "quantity": 1,
+          "total": 68
+        }
+      ]
+    },
+    {
+      "id": "O0131",
+      "customerId": "C130",
+      "total": 58.0,
+      "dateCreated": "2026-03-24T10:43:13Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Instagram Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P006",
+          "quantity": 1,
+          "total": 58
+        }
+      ]
+    },
+    {
+      "id": "O0132",
+      "customerId": "C150",
+      "total": 185.84,
+      "dateCreated": "2026-03-24T20:01:25Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Email CRM",
+      "discount": 16.16,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P015",
+          "quantity": 1,
+          "total": 24
+        },
+        {
+          "productId": "P013",
+          "quantity": 1,
+          "total": 99
+        },
+        {
+          "productId": "P001",
+          "quantity": 1,
+          "total": 79
+        }
+      ]
+    },
+    {
+      "id": "O0133",
+      "customerId": "C001",
+      "total": 95.0,
+      "dateCreated": "2026-03-24T17:03:59Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "TikTok Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P002",
+          "quantity": 1,
+          "total": 95
+        }
+      ]
+    },
+    {
+      "id": "O0134",
+      "customerId": "C121",
+      "total": 84.0,
+      "dateCreated": "2026-03-24T19:26:23Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Organic Search",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P005",
+          "quantity": 2,
+          "total": 84
+        }
+      ]
+    },
+    {
+      "id": "O0135",
+      "customerId": "C115",
+      "total": 426.88,
+      "dateCreated": "2026-03-24T15:33:08Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Facebook Ads",
+      "discount": 37.12,
+      "itemsCount": 5,
+      "lineItems": [
+        {
+          "productId": "P013",
+          "quantity": 3,
+          "total": 297
+        },
+        {
+          "productId": "P002",
+          "quantity": 1,
+          "total": 95
+        },
+        {
+          "productId": "P011",
+          "quantity": 1,
+          "total": 72
+        }
+      ]
+    },
+    {
+      "id": "O0136",
+      "customerId": "C058",
+      "total": 192.28,
+      "dateCreated": "2026-03-24T12:29:22Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "TikTok Ads",
+      "discount": 16.72,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P010",
+          "quantity": 1,
+          "total": 64
+        },
+        {
+          "productId": "P008",
+          "quantity": 1,
+          "total": 145
+        }
+      ]
+    },
+    {
+      "id": "O0137",
+      "customerId": "C071",
+      "total": 270.48,
+      "dateCreated": "2026-03-24T09:15:13Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Instagram Ads",
+      "discount": 23.52,
+      "itemsCount": 4,
+      "lineItems": [
+        {
+          "productId": "P004",
+          "quantity": 2,
+          "total": 136
+        },
+        {
+          "productId": "P001",
+          "quantity": 2,
+          "total": 158
+        }
+      ]
+    },
+    {
+      "id": "O0138",
+      "customerId": "C026",
+      "total": 174.8,
+      "dateCreated": "2026-03-24T16:14:34Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Direct",
+      "discount": 15.2,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P002",
+          "quantity": 2,
+          "total": 190
+        }
+      ]
+    },
+    {
+      "id": "O0139",
+      "customerId": "C015",
+      "total": 280.6,
+      "dateCreated": "2026-03-24T19:33:14Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Organic Search",
+      "discount": 24.4,
+      "itemsCount": 4,
+      "lineItems": [
+        {
+          "productId": "P008",
+          "quantity": 1,
+          "total": 145
+        },
+        {
+          "productId": "P014",
+          "quantity": 2,
+          "total": 72
+        },
+        {
+          "productId": "P012",
+          "quantity": 1,
+          "total": 88
+        }
+      ]
+    },
+    {
+      "id": "O0140",
+      "customerId": "C143",
+      "total": 130.0,
+      "dateCreated": "2026-03-25T19:42:24Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Facebook Ads",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P006",
+          "quantity": 1,
+          "total": 58
+        },
+        {
+          "productId": "P011",
+          "quantity": 1,
+          "total": 72
+        }
+      ]
+    },
+    {
+      "id": "O0141",
+      "customerId": "C082",
+      "total": 64.0,
+      "dateCreated": "2026-03-25T16:15:54Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "TikTok Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P010",
+          "quantity": 1,
+          "total": 64
+        }
+      ]
+    },
+    {
+      "id": "O0142",
+      "customerId": "C077",
+      "total": 48.0,
+      "dateCreated": "2026-03-25T15:35:33Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "TikTok Ads",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P015",
+          "quantity": 2,
+          "total": 48
+        }
+      ]
+    },
+    {
+      "id": "O0143",
+      "customerId": "C100",
+      "total": 220.8,
+      "dateCreated": "2026-03-25T10:34:46Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Instagram Ads",
+      "discount": 19.2,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P003",
+          "quantity": 2,
+          "total": 240
+        }
+      ]
+    },
+    {
+      "id": "O0144",
+      "customerId": "C014",
+      "total": 131.0,
+      "dateCreated": "2026-03-25T12:30:13Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Instagram Ads",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P002",
+          "quantity": 1,
+          "total": 95
+        },
+        {
+          "productId": "P014",
+          "quantity": 1,
+          "total": 36
+        }
+      ]
+    },
+    {
+      "id": "O0145",
+      "customerId": "C078",
+      "total": 303.6,
+      "dateCreated": "2026-03-25T21:30:58Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Facebook Ads",
+      "discount": 26.4,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P007",
+          "quantity": 3,
+          "total": 330
+        }
+      ]
+    },
+    {
+      "id": "O0146",
+      "customerId": "C179",
+      "total": 145.0,
+      "dateCreated": "2026-03-25T15:29:34Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Direct",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P008",
+          "quantity": 1,
+          "total": 145
+        }
+      ]
+    },
+    {
+      "id": "O0147",
+      "customerId": "C092",
+      "total": 76.0,
+      "dateCreated": "2026-03-25T20:30:48Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Instagram Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P016",
+          "quantity": 1,
+          "total": 76
+        }
+      ]
+    },
+    {
+      "id": "O0148",
+      "customerId": "C053",
+      "total": 266.8,
+      "dateCreated": "2026-03-25T17:59:37Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Instagram Ads",
+      "discount": 23.2,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P008",
+          "quantity": 2,
+          "total": 290
+        }
+      ]
+    },
+    {
+      "id": "O0149",
+      "customerId": "C051",
+      "total": 145.0,
+      "dateCreated": "2026-03-26T19:21:16Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Instagram Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P008",
+          "quantity": 1,
+          "total": 145
+        }
+      ]
+    },
+    {
+      "id": "O0150",
+      "customerId": "C165",
+      "total": 88.0,
+      "dateCreated": "2026-03-26T16:11:58Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "TikTok Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P012",
+          "quantity": 1,
+          "total": 88
+        }
+      ]
+    },
+    {
+      "id": "O0151",
+      "customerId": "C165",
+      "total": 220.8,
+      "dateCreated": "2026-03-26T21:00:26Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Facebook Ads",
+      "discount": 19.2,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P003",
+          "quantity": 2,
+          "total": 240
+        }
+      ]
+    },
+    {
+      "id": "O0152",
+      "customerId": "C162",
+      "total": 147.0,
+      "dateCreated": "2026-03-26T18:58:30Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Instagram Ads",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P001",
+          "quantity": 1,
+          "total": 79
+        },
+        {
+          "productId": "P004",
+          "quantity": 1,
+          "total": 68
+        }
+      ]
+    },
+    {
+      "id": "O0153",
+      "customerId": "C125",
+      "total": 36.0,
+      "dateCreated": "2026-03-26T13:34:18Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Organic Search",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P014",
+          "quantity": 1,
+          "total": 36
+        }
+      ]
+    },
+    {
+      "id": "O0154",
+      "customerId": "C129",
+      "total": 194.12,
+      "dateCreated": "2026-03-26T13:52:22Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "TikTok Ads",
+      "discount": 16.88,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P006",
+          "quantity": 2,
+          "total": 116
+        },
+        {
+          "productId": "P002",
+          "quantity": 1,
+          "total": 95
+        }
+      ]
+    },
+    {
+      "id": "O0155",
+      "customerId": "C102",
+      "total": 187.68,
+      "dateCreated": "2026-03-26T21:02:05Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Organic Search",
+      "discount": 16.32,
+      "itemsCount": 5,
+      "lineItems": [
+        {
+          "productId": "P015",
+          "quantity": 3,
+          "total": 72
+        },
+        {
+          "productId": "P010",
+          "quantity": 1,
+          "total": 64
+        },
+        {
+          "productId": "P004",
+          "quantity": 1,
+          "total": 68
+        }
+      ]
+    },
+    {
+      "id": "O0156",
+      "customerId": "C098",
+      "total": 158.0,
+      "dateCreated": "2026-03-26T22:27:41Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Instagram Ads",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P001",
+          "quantity": 2,
+          "total": 158
+        }
+      ]
+    },
+    {
+      "id": "O0157",
+      "customerId": "C145",
+      "total": 281.52,
+      "dateCreated": "2026-03-26T13:57:34Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Facebook Ads",
+      "discount": 24.48,
+      "itemsCount": 5,
+      "lineItems": [
+        {
+          "productId": "P002",
+          "quantity": 2,
+          "total": 190
+        },
+        {
+          "productId": "P004",
+          "quantity": 1,
+          "total": 68
+        },
+        {
+          "productId": "P015",
+          "quantity": 2,
+          "total": 48
+        }
+      ]
+    },
+    {
+      "id": "O0158",
+      "customerId": "C169",
+      "total": 201.48,
+      "dateCreated": "2026-03-26T12:36:53Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Organic Search",
+      "discount": 17.52,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P011",
+          "quantity": 1,
+          "total": 72
+        },
+        {
+          "productId": "P001",
+          "quantity": 1,
+          "total": 79
+        },
+        {
+          "productId": "P004",
+          "quantity": 1,
+          "total": 68
+        }
+      ]
+    },
+    {
+      "id": "O0159",
+      "customerId": "C036",
+      "total": 247.48,
+      "dateCreated": "2026-03-27T10:21:38Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "TikTok Ads",
+      "discount": 21.52,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P003",
+          "quantity": 2,
+          "total": 240
+        },
+        {
+          "productId": "P009",
+          "quantity": 1,
+          "total": 29
+        }
+      ]
+    },
+    {
+      "id": "O0160",
+      "customerId": "C153",
+      "total": 151.0,
+      "dateCreated": "2026-03-27T15:27:11Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Instagram Ads",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P001",
+          "quantity": 1,
+          "total": 79
+        },
+        {
+          "productId": "P011",
+          "quantity": 1,
+          "total": 72
+        }
+      ]
+    },
+    {
+      "id": "O0161",
+      "customerId": "C150",
+      "total": 128.0,
+      "dateCreated": "2026-03-27T10:17:09Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "TikTok Ads",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P010",
+          "quantity": 2,
+          "total": 128
+        }
+      ]
+    },
+    {
+      "id": "O0162",
+      "customerId": "C163",
+      "total": 88.0,
+      "dateCreated": "2026-03-27T13:28:23Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Organic Search",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P012",
+          "quantity": 1,
+          "total": 88
+        }
+      ]
+    },
+    {
+      "id": "O0163",
+      "customerId": "C027",
+      "total": 24.0,
+      "dateCreated": "2026-03-27T10:01:05Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Organic Search",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P015",
+          "quantity": 1,
+          "total": 24
+        }
+      ]
+    },
+    {
+      "id": "O0164",
+      "customerId": "C142",
+      "total": 108.0,
+      "dateCreated": "2026-03-27T17:57:15Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Organic Search",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P011",
+          "quantity": 1,
+          "total": 72
+        },
+        {
+          "productId": "P014",
+          "quantity": 1,
+          "total": 36
+        }
+      ]
+    },
+    {
+      "id": "O0165",
+      "customerId": "C134",
+      "total": 42.0,
+      "dateCreated": "2026-03-27T11:04:10Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Organic Search",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P005",
+          "quantity": 1,
+          "total": 42
+        }
+      ]
+    },
+    {
+      "id": "O0166",
+      "customerId": "C071",
+      "total": 120.0,
+      "dateCreated": "2026-03-27T20:40:31Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Email CRM",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P003",
+          "quantity": 1,
+          "total": 120
+        }
+      ]
+    },
+    {
+      "id": "O0167",
+      "customerId": "C158",
+      "total": 64.0,
+      "dateCreated": "2026-03-27T22:39:24Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Instagram Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P010",
+          "quantity": 1,
+          "total": 64
+        }
+      ]
+    },
+    {
+      "id": "O0168",
+      "customerId": "C113",
+      "total": 118.0,
+      "dateCreated": "2026-03-27T15:20:18Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Instagram Ads",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P005",
+          "quantity": 1,
+          "total": 42
+        },
+        {
+          "productId": "P016",
+          "quantity": 1,
+          "total": 76
+        }
+      ]
+    },
+    {
+      "id": "O0169",
+      "customerId": "C178",
+      "total": 287.96,
+      "dateCreated": "2026-03-27T11:43:49Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Direct",
+      "discount": 25.04,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P008",
+          "quantity": 1,
+          "total": 145
+        },
+        {
+          "productId": "P006",
+          "quantity": 1,
+          "total": 58
+        },
+        {
+          "productId": "P007",
+          "quantity": 1,
+          "total": 110
+        }
+      ]
+    },
+    {
+      "id": "O0170",
+      "customerId": "C007",
+      "total": 110.0,
+      "dateCreated": "2026-03-27T20:04:52Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Facebook Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P007",
+          "quantity": 1,
+          "total": 110
+        }
+      ]
+    },
+    {
+      "id": "O0171",
+      "customerId": "C173",
+      "total": 210.68,
+      "dateCreated": "2026-03-27T18:30:37Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Email CRM",
+      "discount": 18.32,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P008",
+          "quantity": 1,
+          "total": 145
+        },
+        {
+          "productId": "P005",
+          "quantity": 2,
+          "total": 84
+        }
+      ]
+    },
+    {
+      "id": "O0172",
+      "customerId": "C093",
+      "total": 308.2,
+      "dateCreated": "2026-03-28T09:36:41Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "TikTok Ads",
+      "discount": 26.8,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P003",
+          "quantity": 2,
+          "total": 240
+        },
+        {
+          "productId": "P002",
+          "quantity": 1,
+          "total": 95
+        }
+      ]
+    },
+    {
+      "id": "O0173",
+      "customerId": "C166",
+      "total": 131.0,
+      "dateCreated": "2026-03-28T18:44:36Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Instagram Ads",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P014",
+          "quantity": 1,
+          "total": 36
+        },
+        {
+          "productId": "P002",
+          "quantity": 1,
+          "total": 95
+        }
+      ]
+    },
+    {
+      "id": "O0174",
+      "customerId": "C115",
+      "total": 84.0,
+      "dateCreated": "2026-03-28T10:18:26Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Instagram Ads",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P005",
+          "quantity": 2,
+          "total": 84
+        }
+      ]
+    },
+    {
+      "id": "O0175",
+      "customerId": "C030",
+      "total": 130.0,
+      "dateCreated": "2026-03-28T10:28:46Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "TikTok Ads",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P012",
+          "quantity": 1,
+          "total": 88
+        },
+        {
+          "productId": "P005",
+          "quantity": 1,
+          "total": 42
+        }
+      ]
+    },
+    {
+      "id": "O0176",
+      "customerId": "C116",
+      "total": 68.0,
+      "dateCreated": "2026-03-28T10:43:51Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Instagram Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P004",
+          "quantity": 1,
+          "total": 68
+        }
+      ]
+    },
+    {
+      "id": "O0177",
+      "customerId": "C063",
+      "total": 72.0,
+      "dateCreated": "2026-03-28T12:51:25Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Email CRM",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P011",
+          "quantity": 1,
+          "total": 72
+        }
+      ]
+    },
+    {
+      "id": "O0178",
+      "customerId": "C048",
+      "total": 178.0,
+      "dateCreated": "2026-03-28T09:45:13Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Instagram Ads",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P013",
+          "quantity": 1,
+          "total": 99
+        },
+        {
+          "productId": "P001",
+          "quantity": 1,
+          "total": 79
+        }
+      ]
+    },
+    {
+      "id": "O0179",
+      "customerId": "C072",
+      "total": 169.28,
+      "dateCreated": "2026-03-28T16:07:16Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "TikTok Ads",
+      "discount": 14.72,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P003",
+          "quantity": 1,
+          "total": 120
+        },
+        {
+          "productId": "P010",
+          "quantity": 1,
+          "total": 64
+        }
+      ]
+    },
+    {
+      "id": "O0180",
+      "customerId": "C126",
+      "total": 163.0,
+      "dateCreated": "2026-03-28T11:52:43Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Email CRM",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P013",
+          "quantity": 1,
+          "total": 99
+        },
+        {
+          "productId": "P010",
+          "quantity": 1,
+          "total": 64
+        }
+      ]
+    },
+    {
+      "id": "O0181",
+      "customerId": "C077",
+      "total": 100.0,
+      "dateCreated": "2026-03-28T17:24:26Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Facebook Ads",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P005",
+          "quantity": 1,
+          "total": 42
+        },
+        {
+          "productId": "P006",
+          "quantity": 1,
+          "total": 58
+        }
+      ]
+    },
+    {
+      "id": "O0182",
+      "customerId": "C036",
+      "total": 76.0,
+      "dateCreated": "2026-03-28T19:59:11Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Direct",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P016",
+          "quantity": 1,
+          "total": 76
+        }
+      ]
+    },
+    {
+      "id": "O0183",
+      "customerId": "C043",
+      "total": 144.0,
+      "dateCreated": "2026-03-28T22:22:00Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Email CRM",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P011",
+          "quantity": 2,
+          "total": 144
+        }
+      ]
+    },
+    {
+      "id": "O0184",
+      "customerId": "C035",
+      "total": 76.0,
+      "dateCreated": "2026-03-28T20:53:28Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Instagram Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P016",
+          "quantity": 1,
+          "total": 76
+        }
+      ]
+    },
+    {
+      "id": "O0185",
+      "customerId": "C043",
+      "total": 145.0,
+      "dateCreated": "2026-03-28T17:18:10Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Organic Search",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P008",
+          "quantity": 1,
+          "total": 145
+        }
+      ]
+    },
+    {
+      "id": "O0186",
+      "customerId": "C145",
+      "total": 180.32,
+      "dateCreated": "2026-03-28T22:48:02Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "TikTok Ads",
+      "discount": 15.68,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P004",
+          "quantity": 1,
+          "total": 68
+        },
+        {
+          "productId": "P010",
+          "quantity": 2,
+          "total": 128
+        }
+      ]
+    },
+    {
+      "id": "O0187",
+      "customerId": "C109",
+      "total": 305.44,
+      "dateCreated": "2026-03-29T10:28:55Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Organic Search",
+      "discount": 26.56,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P008",
+          "quantity": 2,
+          "total": 290
+        },
+        {
+          "productId": "P005",
+          "quantity": 1,
+          "total": 42
+        }
+      ]
+    },
+    {
+      "id": "O0188",
+      "customerId": "C061",
+      "total": 124.0,
+      "dateCreated": "2026-03-29T12:52:13Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Instagram Ads",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P012",
+          "quantity": 1,
+          "total": 88
+        },
+        {
+          "productId": "P014",
+          "quantity": 1,
+          "total": 36
+        }
+      ]
+    },
+    {
+      "id": "O0189",
+      "customerId": "C146",
+      "total": 58.0,
+      "dateCreated": "2026-03-29T13:36:17Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Instagram Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P006",
+          "quantity": 1,
+          "total": 58
+        }
+      ]
+    },
+    {
+      "id": "O0190",
+      "customerId": "C174",
+      "total": 72.0,
+      "dateCreated": "2026-03-29T22:41:08Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "TikTok Ads",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P014",
+          "quantity": 2,
+          "total": 72
+        }
+      ]
+    },
+    {
+      "id": "O0191",
+      "customerId": "C034",
+      "total": 357.88,
+      "dateCreated": "2026-03-29T19:26:24Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Instagram Ads",
+      "discount": 31.12,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P008",
+          "quantity": 2,
+          "total": 290
+        },
+        {
+          "productId": "P013",
+          "quantity": 1,
+          "total": 99
+        }
+      ]
+    },
+    {
+      "id": "O0192",
+      "customerId": "C020",
+      "total": 312.8,
+      "dateCreated": "2026-03-29T16:20:37Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Direct",
+      "discount": 27.2,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P003",
+          "quantity": 1,
+          "total": 120
+        },
+        {
+          "productId": "P007",
+          "quantity": 2,
+          "total": 220
+        }
+      ]
+    },
+    {
+      "id": "O0193",
+      "customerId": "C024",
+      "total": 176.0,
+      "dateCreated": "2026-03-29T15:13:27Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "TikTok Ads",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P012",
+          "quantity": 2,
+          "total": 176
+        }
+      ]
+    },
+    {
+      "id": "O0194",
+      "customerId": "C127",
+      "total": 101.0,
+      "dateCreated": "2026-03-29T19:48:03Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Instagram Ads",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P011",
+          "quantity": 1,
+          "total": 72
+        },
+        {
+          "productId": "P009",
+          "quantity": 1,
+          "total": 29
+        }
+      ]
+    },
+    {
+      "id": "O0195",
+      "customerId": "C026",
+      "total": 232.76,
+      "dateCreated": "2026-03-29T15:12:44Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Direct",
+      "discount": 20.24,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P001",
+          "quantity": 2,
+          "total": 158
+        },
+        {
+          "productId": "P002",
+          "quantity": 1,
+          "total": 95
+        }
+      ]
+    },
+    {
+      "id": "O0196",
+      "customerId": "C167",
+      "total": 124.0,
+      "dateCreated": "2026-03-29T11:03:25Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Instagram Ads",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P009",
+          "quantity": 1,
+          "total": 29
+        },
+        {
+          "productId": "P002",
+          "quantity": 1,
+          "total": 95
+        }
+      ]
+    },
+    {
+      "id": "O0197",
+      "customerId": "C079",
+      "total": 108.0,
+      "dateCreated": "2026-03-29T18:14:33Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "TikTok Ads",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P014",
+          "quantity": 1,
+          "total": 36
+        },
+        {
+          "productId": "P011",
+          "quantity": 1,
+          "total": 72
+        }
+      ]
+    },
+    {
+      "id": "O0198",
+      "customerId": "C179",
+      "total": 36.0,
+      "dateCreated": "2026-03-30T12:24:05Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Instagram Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P014",
+          "quantity": 1,
+          "total": 36
+        }
+      ]
+    },
+    {
+      "id": "O0199",
+      "customerId": "C027",
+      "total": 64.0,
+      "dateCreated": "2026-03-30T21:55:08Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Organic Search",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P010",
+          "quantity": 1,
+          "total": 64
+        }
+      ]
+    },
+    {
+      "id": "O0200",
+      "customerId": "C174",
+      "total": 79.0,
+      "dateCreated": "2026-03-30T14:46:13Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Organic Search",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P001",
+          "quantity": 1,
+          "total": 79
+        }
+      ]
+    },
+    {
+      "id": "O0201",
+      "customerId": "C039",
+      "total": 60.0,
+      "dateCreated": "2026-03-30T20:24:22Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Facebook Ads",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P015",
+          "quantity": 1,
+          "total": 24
+        },
+        {
+          "productId": "P014",
+          "quantity": 1,
+          "total": 36
+        }
+      ]
+    },
+    {
+      "id": "O0202",
+      "customerId": "C081",
+      "total": 120.0,
+      "dateCreated": "2026-03-30T20:38:18Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "TikTok Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P003",
+          "quantity": 1,
+          "total": 120
+        }
+      ]
+    },
+    {
+      "id": "O0203",
+      "customerId": "C007",
+      "total": 184.0,
+      "dateCreated": "2026-03-30T09:50:57Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "TikTok Ads",
+      "discount": 16.0,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P010",
+          "quantity": 1,
+          "total": 64
+        },
+        {
+          "productId": "P004",
+          "quantity": 2,
+          "total": 136
+        }
+      ]
+    },
+    {
+      "id": "O0204",
+      "customerId": "C127",
+      "total": 120.0,
+      "dateCreated": "2026-03-30T14:59:20Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Instagram Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P003",
+          "quantity": 1,
+          "total": 120
+        }
+      ]
+    },
+    {
+      "id": "O0205",
+      "customerId": "C100",
+      "total": 88.0,
+      "dateCreated": "2026-03-30T16:49:04Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Facebook Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P012",
+          "quantity": 1,
+          "total": 88
+        }
+      ]
+    },
+    {
+      "id": "O0206",
+      "customerId": "C151",
+      "total": 174.8,
+      "dateCreated": "2026-03-30T15:32:18Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Organic Search",
+      "discount": 15.2,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P002",
+          "quantity": 2,
+          "total": 190
+        }
+      ]
+    },
+    {
+      "id": "O0207",
+      "customerId": "C129",
+      "total": 99.0,
+      "dateCreated": "2026-03-30T18:09:17Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "TikTok Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P013",
+          "quantity": 1,
+          "total": 99
+        }
+      ]
+    },
+    {
+      "id": "O0208",
+      "customerId": "C080",
+      "total": 158.0,
+      "dateCreated": "2026-03-30T20:54:15Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Organic Search",
+      "discount": 0.0,
+      "itemsCount": 4,
+      "lineItems": [
+        {
+          "productId": "P005",
+          "quantity": 1,
+          "total": 42
+        },
+        {
+          "productId": "P009",
+          "quantity": 2,
+          "total": 58
+        },
+        {
+          "productId": "P006",
+          "quantity": 1,
+          "total": 58
+        }
+      ]
+    },
+    {
+      "id": "O0209",
+      "customerId": "C063",
+      "total": 24.0,
+      "dateCreated": "2026-03-30T19:47:42Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Organic Search",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P015",
+          "quantity": 1,
+          "total": 24
+        }
+      ]
+    },
+    {
+      "id": "O0210",
+      "customerId": "C036",
+      "total": 88.0,
+      "dateCreated": "2026-03-31T20:16:10Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "TikTok Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P012",
+          "quantity": 1,
+          "total": 88
+        }
+      ]
+    },
+    {
+      "id": "O0211",
+      "customerId": "C033",
+      "total": 216.2,
+      "dateCreated": "2026-03-31T13:45:36Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "TikTok Ads",
+      "discount": 18.8,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P004",
+          "quantity": 2,
+          "total": 136
+        },
+        {
+          "productId": "P013",
+          "quantity": 1,
+          "total": 99
+        }
+      ]
+    },
+    {
+      "id": "O0212",
+      "customerId": "C020",
+      "total": 95.0,
+      "dateCreated": "2026-03-31T14:10:16Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Email CRM",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P002",
+          "quantity": 1,
+          "total": 95
+        }
+      ]
+    },
+    {
+      "id": "O0213",
+      "customerId": "C147",
+      "total": 79.0,
+      "dateCreated": "2026-03-31T12:02:30Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "TikTok Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P001",
+          "quantity": 1,
+          "total": 79
+        }
+      ]
+    },
+    {
+      "id": "O0214",
+      "customerId": "C099",
+      "total": 95.0,
+      "dateCreated": "2026-03-31T20:41:26Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Facebook Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P002",
+          "quantity": 1,
+          "total": 95
+        }
+      ]
+    },
+    {
+      "id": "O0215",
+      "customerId": "C083",
+      "total": 150.0,
+      "dateCreated": "2026-03-31T09:25:04Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Instagram Ads",
+      "discount": 0.0,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P011",
+          "quantity": 1,
+          "total": 72
+        },
+        {
+          "productId": "P005",
+          "quantity": 1,
+          "total": 42
+        },
+        {
+          "productId": "P014",
+          "quantity": 1,
+          "total": 36
+        }
+      ]
+    },
+    {
+      "id": "O0216",
+      "customerId": "C073",
+      "total": 220.8,
+      "dateCreated": "2026-03-31T12:18:36Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "TikTok Ads",
+      "discount": 19.2,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P003",
+          "quantity": 2,
+          "total": 240
+        }
+      ]
+    },
+    {
+      "id": "O0217",
+      "customerId": "C160",
+      "total": 209.76,
+      "dateCreated": "2026-03-31T20:57:34Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Instagram Ads",
+      "discount": 18.24,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P016",
+          "quantity": 3,
+          "total": 228
+        }
+      ]
+    },
+    {
+      "id": "O0218",
+      "customerId": "C039",
+      "total": 145.0,
+      "dateCreated": "2026-03-31T20:56:00Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Organic Search",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P008",
+          "quantity": 1,
+          "total": 145
+        }
+      ]
+    },
+    {
+      "id": "O0219",
+      "customerId": "C001",
+      "total": 64.0,
+      "dateCreated": "2026-03-31T12:26:31Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "TikTok Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P010",
+          "quantity": 1,
+          "total": 64
+        }
+      ]
+    },
+    {
+      "id": "O0220",
+      "customerId": "C012",
+      "total": 167.44,
+      "dateCreated": "2026-04-01T18:36:03Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Facebook Ads",
+      "discount": 14.56,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P014",
+          "quantity": 1,
+          "total": 36
+        },
+        {
+          "productId": "P012",
+          "quantity": 1,
+          "total": 88
+        },
+        {
+          "productId": "P006",
+          "quantity": 1,
+          "total": 58
+        }
+      ]
+    },
+    {
+      "id": "O0221",
+      "customerId": "C170",
+      "total": 58.0,
+      "dateCreated": "2026-04-01T15:44:53Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Facebook Ads",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P009",
+          "quantity": 2,
+          "total": 58
+        }
+      ]
+    },
+    {
+      "id": "O0222",
+      "customerId": "C084",
+      "total": 220.8,
+      "dateCreated": "2026-04-01T21:37:06Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Instagram Ads",
+      "discount": 19.2,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P003",
+          "quantity": 2,
+          "total": 240
+        }
+      ]
+    },
+    {
+      "id": "O0223",
+      "customerId": "C028",
+      "total": 36.0,
+      "dateCreated": "2026-04-01T21:13:28Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Organic Search",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P014",
+          "quantity": 1,
+          "total": 36
+        }
+      ]
+    },
+    {
+      "id": "O0224",
+      "customerId": "C119",
+      "total": 116.0,
+      "dateCreated": "2026-04-01T20:44:38Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Instagram Ads",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P006",
+          "quantity": 2,
+          "total": 116
+        }
+      ]
+    },
+    {
+      "id": "O0225",
+      "customerId": "C056",
+      "total": 120.0,
+      "dateCreated": "2026-04-01T15:32:03Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "TikTok Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P003",
+          "quantity": 1,
+          "total": 120
+        }
+      ]
+    },
+    {
+      "id": "O0226",
+      "customerId": "C077",
+      "total": 240.12,
+      "dateCreated": "2026-04-01T09:03:53Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Instagram Ads",
+      "discount": 20.88,
+      "itemsCount": 4,
+      "lineItems": [
+        {
+          "productId": "P001",
+          "quantity": 1,
+          "total": 79
+        },
+        {
+          "productId": "P007",
+          "quantity": 1,
+          "total": 110
+        },
+        {
+          "productId": "P014",
+          "quantity": 2,
+          "total": 72
+        }
+      ]
+    },
+    {
+      "id": "O0227",
+      "customerId": "C034",
+      "total": 120.0,
+      "dateCreated": "2026-04-01T22:04:01Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Instagram Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P003",
+          "quantity": 1,
+          "total": 120
+        }
+      ]
+    },
+    {
+      "id": "O0228",
+      "customerId": "C051",
+      "total": 42.0,
+      "dateCreated": "2026-04-01T21:21:07Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Facebook Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P005",
+          "quantity": 1,
+          "total": 42
+        }
+      ]
+    },
+    {
+      "id": "O0229",
+      "customerId": "C119",
+      "total": 217.12,
+      "dateCreated": "2026-04-01T13:28:56Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Organic Search",
+      "discount": 18.88,
+      "itemsCount": 4,
+      "lineItems": [
+        {
+          "productId": "P014",
+          "quantity": 2,
+          "total": 72
+        },
+        {
+          "productId": "P016",
+          "quantity": 1,
+          "total": 76
+        },
+        {
+          "productId": "P012",
+          "quantity": 1,
+          "total": 88
+        }
+      ]
+    },
+    {
+      "id": "O0230",
+      "customerId": "C009",
+      "total": 192.28,
+      "dateCreated": "2026-04-01T11:26:12Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Direct",
+      "discount": 16.72,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P010",
+          "quantity": 1,
+          "total": 64
+        },
+        {
+          "productId": "P008",
+          "quantity": 1,
+          "total": 145
+        }
+      ]
+    },
+    {
+      "id": "O0231",
+      "customerId": "C005",
+      "total": 347.76,
+      "dateCreated": "2026-04-02T15:17:11Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Facebook Ads",
+      "discount": 30.24,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P012",
+          "quantity": 1,
+          "total": 88
+        },
+        {
+          "productId": "P008",
+          "quantity": 2,
+          "total": 290
+        }
+      ]
+    },
+    {
+      "id": "O0232",
+      "customerId": "C082",
+      "total": 29.0,
+      "dateCreated": "2026-04-02T17:22:49Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Direct",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P009",
+          "quantity": 1,
+          "total": 29
+        }
+      ]
+    },
+    {
+      "id": "O0233",
+      "customerId": "C060",
+      "total": 145.0,
+      "dateCreated": "2026-04-02T20:03:48Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Facebook Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P008",
+          "quantity": 1,
+          "total": 145
+        }
+      ]
+    },
+    {
+      "id": "O0234",
+      "customerId": "C148",
+      "total": 184.0,
+      "dateCreated": "2026-04-02T21:47:44Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "TikTok Ads",
+      "discount": 16.0,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P012",
+          "quantity": 2,
+          "total": 176
+        },
+        {
+          "productId": "P015",
+          "quantity": 1,
+          "total": 24
+        }
+      ]
+    },
+    {
+      "id": "O0235",
+      "customerId": "C152",
+      "total": 195.04,
+      "dateCreated": "2026-04-02T17:19:11Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Organic Search",
+      "discount": 16.96,
+      "itemsCount": 4,
+      "lineItems": [
+        {
+          "productId": "P005",
+          "quantity": 2,
+          "total": 84
+        },
+        {
+          "productId": "P010",
+          "quantity": 2,
+          "total": 128
+        }
+      ]
+    },
+    {
+      "id": "O0236",
+      "customerId": "C010",
+      "total": 145.0,
+      "dateCreated": "2026-04-02T14:58:39Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Organic Search",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P008",
+          "quantity": 1,
+          "total": 145
+        }
+      ]
+    },
+    {
+      "id": "O0237",
+      "customerId": "C034",
+      "total": 72.0,
+      "dateCreated": "2026-04-02T20:58:09Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Instagram Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P011",
+          "quantity": 1,
+          "total": 72
+        }
+      ]
+    },
+    {
+      "id": "O0238",
+      "customerId": "C135",
+      "total": 217.12,
+      "dateCreated": "2026-04-02T21:40:31Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Facebook Ads",
+      "discount": 18.88,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P012",
+          "quantity": 1,
+          "total": 88
+        },
+        {
+          "productId": "P016",
+          "quantity": 1,
+          "total": 76
+        },
+        {
+          "productId": "P011",
+          "quantity": 1,
+          "total": 72
+        }
+      ]
+    },
+    {
+      "id": "O0239",
+      "customerId": "C082",
+      "total": 209.76,
+      "dateCreated": "2026-04-02T20:36:25Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Organic Search",
+      "discount": 18.24,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P012",
+          "quantity": 1,
+          "total": 88
+        },
+        {
+          "productId": "P004",
+          "quantity": 1,
+          "total": 68
+        },
+        {
+          "productId": "P011",
+          "quantity": 1,
+          "total": 72
+        }
+      ]
+    },
+    {
+      "id": "O0240",
+      "customerId": "C009",
+      "total": 145.0,
+      "dateCreated": "2026-04-02T16:09:21Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Instagram Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P008",
+          "quantity": 1,
+          "total": 145
+        }
+      ]
+    },
+    {
+      "id": "O0241",
+      "customerId": "C020",
+      "total": 260.36,
+      "dateCreated": "2026-04-02T20:04:22Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Instagram Ads",
+      "discount": 22.64,
+      "itemsCount": 4,
+      "lineItems": [
+        {
+          "productId": "P006",
+          "quantity": 2,
+          "total": 116
+        },
+        {
+          "productId": "P011",
+          "quantity": 1,
+          "total": 72
+        },
+        {
+          "productId": "P002",
+          "quantity": 1,
+          "total": 95
+        }
+      ]
+    },
+    {
+      "id": "O0242",
+      "customerId": "C099",
+      "total": 116.0,
+      "dateCreated": "2026-04-03T15:22:34Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Email CRM",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P006",
+          "quantity": 2,
+          "total": 116
+        }
+      ]
+    },
+    {
+      "id": "O0243",
+      "customerId": "C026",
+      "total": 243.8,
+      "dateCreated": "2026-04-03T13:06:04Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "TikTok Ads",
+      "discount": 21.2,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P008",
+          "quantity": 1,
+          "total": 145
+        },
+        {
+          "productId": "P003",
+          "quantity": 1,
+          "total": 120
+        }
+      ]
+    },
+    {
+      "id": "O0244",
+      "customerId": "C044",
+      "total": 120.0,
+      "dateCreated": "2026-04-03T10:21:38Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Facebook Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P003",
+          "quantity": 1,
+          "total": 120
+        }
+      ]
+    },
+    {
+      "id": "O0245",
+      "customerId": "C124",
+      "total": 58.0,
+      "dateCreated": "2026-04-03T09:06:21Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "TikTok Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P006",
+          "quantity": 1,
+          "total": 58
+        }
+      ]
+    },
+    {
+      "id": "O0246",
+      "customerId": "C049",
+      "total": 29.0,
+      "dateCreated": "2026-04-03T10:03:25Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Instagram Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P009",
+          "quantity": 1,
+          "total": 29
+        }
+      ]
+    },
+    {
+      "id": "O0247",
+      "customerId": "C141",
+      "total": 88.0,
+      "dateCreated": "2026-04-03T22:42:40Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "TikTok Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P012",
+          "quantity": 1,
+          "total": 88
+        }
+      ]
+    },
+    {
+      "id": "O0248",
+      "customerId": "C123",
+      "total": 58.0,
+      "dateCreated": "2026-04-03T16:54:07Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Instagram Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P006",
+          "quantity": 1,
+          "total": 58
+        }
+      ]
+    },
+    {
+      "id": "O0249",
+      "customerId": "C102",
+      "total": 267.72,
+      "dateCreated": "2026-04-03T16:16:14Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Email CRM",
+      "discount": 23.28,
+      "itemsCount": 4,
+      "lineItems": [
+        {
+          "productId": "P009",
+          "quantity": 1,
+          "total": 29
+        },
+        {
+          "productId": "P002",
+          "quantity": 2,
+          "total": 190
+        },
+        {
+          "productId": "P011",
+          "quantity": 1,
+          "total": 72
+        }
+      ]
+    },
+    {
+      "id": "O0250",
+      "customerId": "C145",
+      "total": 163.0,
+      "dateCreated": "2026-04-03T12:35:03Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Organic Search",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P004",
+          "quantity": 1,
+          "total": 68
+        },
+        {
+          "productId": "P002",
+          "quantity": 1,
+          "total": 95
+        }
+      ]
+    },
+    {
+      "id": "O0251",
+      "customerId": "C134",
+      "total": 76.0,
+      "dateCreated": "2026-04-03T13:05:25Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Instagram Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P016",
+          "quantity": 1,
+          "total": 76
+        }
+      ]
+    },
+    {
+      "id": "O0252",
+      "customerId": "C009",
+      "total": 217.12,
+      "dateCreated": "2026-04-03T10:43:27Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Email CRM",
+      "discount": 18.88,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P005",
+          "quantity": 1,
+          "total": 42
+        },
+        {
+          "productId": "P002",
+          "quantity": 1,
+          "total": 95
+        },
+        {
+          "productId": "P013",
+          "quantity": 1,
+          "total": 99
+        }
+      ]
+    },
+    {
+      "id": "O0253",
+      "customerId": "C161",
+      "total": 96.0,
+      "dateCreated": "2026-04-03T17:20:54Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Organic Search",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P011",
+          "quantity": 1,
+          "total": 72
+        },
+        {
+          "productId": "P015",
+          "quantity": 1,
+          "total": 24
+        }
+      ]
+    },
+    {
+      "id": "O0254",
+      "customerId": "C134",
+      "total": 131.0,
+      "dateCreated": "2026-04-03T10:59:06Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Email CRM",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P014",
+          "quantity": 1,
+          "total": 36
+        },
+        {
+          "productId": "P002",
+          "quantity": 1,
+          "total": 95
+        }
+      ]
+    },
+    {
+      "id": "O0255",
+      "customerId": "C026",
+      "total": 112.0,
+      "dateCreated": "2026-04-03T09:11:17Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "TikTok Ads",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P012",
+          "quantity": 1,
+          "total": 88
+        },
+        {
+          "productId": "P015",
+          "quantity": 1,
+          "total": 24
+        }
+      ]
+    },
+    {
+      "id": "O0256",
+      "customerId": "C175",
+      "total": 72.0,
+      "dateCreated": "2026-04-04T16:58:17Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "TikTok Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P011",
+          "quantity": 1,
+          "total": 72
+        }
+      ]
+    },
+    {
+      "id": "O0257",
+      "customerId": "C006",
+      "total": 170.0,
+      "dateCreated": "2026-04-04T12:08:19Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Instagram Ads",
+      "discount": 0.0,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P010",
+          "quantity": 2,
+          "total": 128
+        },
+        {
+          "productId": "P005",
+          "quantity": 1,
+          "total": 42
+        }
+      ]
+    },
+    {
+      "id": "O0258",
+      "customerId": "C114",
+      "total": 36.0,
+      "dateCreated": "2026-04-04T16:13:58Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "TikTok Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P014",
+          "quantity": 1,
+          "total": 36
+        }
+      ]
+    },
+    {
+      "id": "O0259",
+      "customerId": "C125",
+      "total": 288.88,
+      "dateCreated": "2026-04-04T21:54:33Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "TikTok Ads",
+      "discount": 25.12,
+      "itemsCount": 4,
+      "lineItems": [
+        {
+          "productId": "P002",
+          "quantity": 3,
+          "total": 285
+        },
+        {
+          "productId": "P009",
+          "quantity": 1,
+          "total": 29
+        }
+      ]
+    },
+    {
+      "id": "O0260",
+      "customerId": "C008",
+      "total": 235.52,
+      "dateCreated": "2026-04-04T12:17:23Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Organic Search",
+      "discount": 20.48,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P007",
+          "quantity": 2,
+          "total": 220
+        },
+        {
+          "productId": "P014",
+          "quantity": 1,
+          "total": 36
+        }
+      ]
+    },
+    {
+      "id": "O0261",
+      "customerId": "C130",
+      "total": 313.72,
+      "dateCreated": "2026-04-04T22:57:16Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Instagram Ads",
+      "discount": 27.28,
+      "itemsCount": 5,
+      "lineItems": [
+        {
+          "productId": "P001",
+          "quantity": 1,
+          "total": 79
+        },
+        {
+          "productId": "P004",
+          "quantity": 3,
+          "total": 204
+        },
+        {
+          "productId": "P006",
+          "quantity": 1,
+          "total": 58
+        }
+      ]
+    },
+    {
+      "id": "O0262",
+      "customerId": "C177",
+      "total": 95.0,
+      "dateCreated": "2026-04-04T12:54:14Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Organic Search",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P002",
+          "quantity": 1,
+          "total": 95
+        }
+      ]
+    },
+    {
+      "id": "O0263",
+      "customerId": "C058",
+      "total": 36.0,
+      "dateCreated": "2026-04-04T21:43:00Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "TikTok Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P014",
+          "quantity": 1,
+          "total": 36
+        }
+      ]
+    },
+    {
+      "id": "O0264",
+      "customerId": "C034",
+      "total": 147.0,
+      "dateCreated": "2026-04-04T19:17:27Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Direct",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P001",
+          "quantity": 1,
+          "total": 79
+        },
+        {
+          "productId": "P004",
+          "quantity": 1,
+          "total": 68
+        }
+      ]
+    },
+    {
+      "id": "O0265",
+      "customerId": "C090",
+      "total": 64.0,
+      "dateCreated": "2026-04-04T15:37:06Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Email CRM",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P010",
+          "quantity": 1,
+          "total": 64
+        }
+      ]
+    },
+    {
+      "id": "O0266",
+      "customerId": "C131",
+      "total": 173.88,
+      "dateCreated": "2026-04-04T14:55:17Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Facebook Ads",
+      "discount": 15.12,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P012",
+          "quantity": 1,
+          "total": 88
+        },
+        {
+          "productId": "P009",
+          "quantity": 1,
+          "total": 29
+        },
+        {
+          "productId": "P011",
+          "quantity": 1,
+          "total": 72
+        }
+      ]
+    },
+    {
+      "id": "O0267",
+      "customerId": "C168",
+      "total": 342.24,
+      "dateCreated": "2026-04-04T14:43:08Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "TikTok Ads",
+      "discount": 29.76,
+      "itemsCount": 4,
+      "lineItems": [
+        {
+          "productId": "P010",
+          "quantity": 1,
+          "total": 64
+        },
+        {
+          "productId": "P004",
+          "quantity": 1,
+          "total": 68
+        },
+        {
+          "productId": "P003",
+          "quantity": 2,
+          "total": 240
+        }
+      ]
+    },
+    {
+      "id": "O0268",
+      "customerId": "C007",
+      "total": 251.16,
+      "dateCreated": "2026-04-04T20:14:43Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Direct",
+      "discount": 21.84,
+      "itemsCount": 4,
+      "lineItems": [
+        {
+          "productId": "P009",
+          "quantity": 1,
+          "total": 29
+        },
+        {
+          "productId": "P015",
+          "quantity": 1,
+          "total": 24
+        },
+        {
+          "productId": "P007",
+          "quantity": 2,
+          "total": 220
+        }
+      ]
+    },
+    {
+      "id": "O0269",
+      "customerId": "C164",
+      "total": 253.92,
+      "dateCreated": "2026-04-04T13:46:51Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "TikTok Ads",
+      "discount": 22.08,
+      "itemsCount": 5,
+      "lineItems": [
+        {
+          "productId": "P012",
+          "quantity": 2,
+          "total": 176
+        },
+        {
+          "productId": "P009",
+          "quantity": 2,
+          "total": 58
+        },
+        {
+          "productId": "P005",
+          "quantity": 1,
+          "total": 42
+        }
+      ]
+    },
+    {
+      "id": "O0270",
+      "customerId": "C047",
+      "total": 226.32,
+      "dateCreated": "2026-04-04T16:54:07Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Facebook Ads",
+      "discount": 19.68,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P003",
+          "quantity": 1,
+          "total": 120
+        },
+        {
+          "productId": "P004",
+          "quantity": 1,
+          "total": 68
+        },
+        {
+          "productId": "P006",
+          "quantity": 1,
+          "total": 58
+        }
+      ]
+    },
+    {
+      "id": "O0271",
+      "customerId": "C014",
+      "total": 487.6,
+      "dateCreated": "2026-04-04T13:26:03Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Facebook Ads",
+      "discount": 42.4,
+      "itemsCount": 4,
+      "lineItems": [
+        {
+          "productId": "P003",
+          "quantity": 2,
+          "total": 240
+        },
+        {
+          "productId": "P008",
+          "quantity": 2,
+          "total": 290
+        }
+      ]
+    },
+    {
+      "id": "O0272",
+      "customerId": "C105",
+      "total": 314.64,
+      "dateCreated": "2026-04-05T09:00:28Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Facebook Ads",
+      "discount": 27.36,
+      "itemsCount": 6,
+      "lineItems": [
+        {
+          "productId": "P015",
+          "quantity": 2,
+          "total": 48
+        },
+        {
+          "productId": "P003",
+          "quantity": 1,
+          "total": 120
+        },
+        {
+          "productId": "P006",
+          "quantity": 3,
+          "total": 174
+        }
+      ]
+    },
+    {
+      "id": "O0273",
+      "customerId": "C054",
+      "total": 58.0,
+      "dateCreated": "2026-04-05T10:08:39Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "TikTok Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P006",
+          "quantity": 1,
+          "total": 58
+        }
+      ]
+    },
+    {
+      "id": "O0274",
+      "customerId": "C163",
+      "total": 76.0,
+      "dateCreated": "2026-04-05T12:46:23Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Email CRM",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P016",
+          "quantity": 1,
+          "total": 76
+        }
+      ]
+    },
+    {
+      "id": "O0275",
+      "customerId": "C083",
+      "total": 79.0,
+      "dateCreated": "2026-04-05T12:14:44Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "TikTok Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P001",
+          "quantity": 1,
+          "total": 79
+        }
+      ]
+    },
+    {
+      "id": "O0276",
+      "customerId": "C080",
+      "total": 64.0,
+      "dateCreated": "2026-04-05T13:18:29Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Organic Search",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P010",
+          "quantity": 1,
+          "total": 64
+        }
+      ]
+    },
+    {
+      "id": "O0277",
+      "customerId": "C134",
+      "total": 42.0,
+      "dateCreated": "2026-04-05T14:48:12Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Direct",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P005",
+          "quantity": 1,
+          "total": 42
+        }
+      ]
+    },
+    {
+      "id": "O0278",
+      "customerId": "C104",
+      "total": 84.0,
+      "dateCreated": "2026-04-05T17:10:07Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Organic Search",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P005",
+          "quantity": 2,
+          "total": 84
+        }
+      ]
+    },
+    {
+      "id": "O0279",
+      "customerId": "C167",
+      "total": 58.0,
+      "dateCreated": "2026-04-05T18:03:42Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "TikTok Ads",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P009",
+          "quantity": 2,
+          "total": 58
+        }
+      ]
+    },
+    {
+      "id": "O0280",
+      "customerId": "C168",
+      "total": 68.0,
+      "dateCreated": "2026-04-05T17:16:30Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "TikTok Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P004",
+          "quantity": 1,
+          "total": 68
+        }
+      ]
+    },
+    {
+      "id": "O0281",
+      "customerId": "C040",
+      "total": 184.0,
+      "dateCreated": "2026-04-05T20:08:26Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Instagram Ads",
+      "discount": 16.0,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P001",
+          "quantity": 2,
+          "total": 158
+        },
+        {
+          "productId": "P005",
+          "quantity": 1,
+          "total": 42
+        }
+      ]
+    },
+    {
+      "id": "O0282",
+      "customerId": "C131",
+      "total": 136.0,
+      "dateCreated": "2026-04-05T18:12:49Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "TikTok Ads",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P004",
+          "quantity": 2,
+          "total": 136
+        }
+      ]
+    },
+    {
+      "id": "O0283",
+      "customerId": "C134",
+      "total": 72.0,
+      "dateCreated": "2026-04-05T16:58:13Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Facebook Ads",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P014",
+          "quantity": 2,
+          "total": 72
+        }
+      ]
+    },
+    {
+      "id": "O0284",
+      "customerId": "C001",
+      "total": 136.0,
+      "dateCreated": "2026-04-06T11:05:49Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Organic Search",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P004",
+          "quantity": 2,
+          "total": 136
+        }
+      ]
+    },
+    {
+      "id": "O0285",
+      "customerId": "C020",
+      "total": 29.0,
+      "dateCreated": "2026-04-06T13:16:29Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "TikTok Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P009",
+          "quantity": 1,
+          "total": 29
+        }
+      ]
+    },
+    {
+      "id": "O0286",
+      "customerId": "C026",
+      "total": 171.12,
+      "dateCreated": "2026-04-06T21:56:02Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "TikTok Ads",
+      "discount": 14.88,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P010",
+          "quantity": 2,
+          "total": 128
+        },
+        {
+          "productId": "P006",
+          "quantity": 1,
+          "total": 58
+        }
+      ]
+    },
+    {
+      "id": "O0287",
+      "customerId": "C036",
+      "total": 176.0,
+      "dateCreated": "2026-04-06T13:56:46Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "TikTok Ads",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P012",
+          "quantity": 2,
+          "total": 176
+        }
+      ]
+    },
+    {
+      "id": "O0288",
+      "customerId": "C096",
+      "total": 99.0,
+      "dateCreated": "2026-04-06T22:24:44Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "TikTok Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P013",
+          "quantity": 1,
+          "total": 99
+        }
+      ]
+    },
+    {
+      "id": "O0289",
+      "customerId": "C108",
+      "total": 283.36,
+      "dateCreated": "2026-04-06T15:58:37Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Direct",
+      "discount": 24.64,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P004",
+          "quantity": 1,
+          "total": 68
+        },
+        {
+          "productId": "P003",
+          "quantity": 2,
+          "total": 240
+        }
+      ]
+    },
+    {
+      "id": "O0290",
+      "customerId": "C146",
+      "total": 182.16,
+      "dateCreated": "2026-04-06T22:43:56Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "TikTok Ads",
+      "discount": 15.84,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P013",
+          "quantity": 2,
+          "total": 198
+        }
+      ]
+    },
+    {
+      "id": "O0291",
+      "customerId": "C034",
+      "total": 36.0,
+      "dateCreated": "2026-04-06T19:20:00Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Email CRM",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P014",
+          "quantity": 1,
+          "total": 36
+        }
+      ]
+    },
+    {
+      "id": "O0292",
+      "customerId": "C174",
+      "total": 333.04,
+      "dateCreated": "2026-04-06T15:42:46Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Email CRM",
+      "discount": 28.96,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P008",
+          "quantity": 2,
+          "total": 290
+        },
+        {
+          "productId": "P011",
+          "quantity": 1,
+          "total": 72
+        }
+      ]
+    },
+    {
+      "id": "O0293",
+      "customerId": "C124",
+      "total": 513.36,
+      "dateCreated": "2026-04-06T19:59:10Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Instagram Ads",
+      "discount": 44.64,
+      "itemsCount": 5,
+      "lineItems": [
+        {
+          "productId": "P013",
+          "quantity": 2,
+          "total": 198
+        },
+        {
+          "productId": "P003",
+          "quantity": 3,
+          "total": 360
+        }
+      ]
+    },
+    {
+      "id": "O0294",
+      "customerId": "C121",
+      "total": 383.64,
+      "dateCreated": "2026-04-06T12:35:41Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "TikTok Ads",
+      "discount": 33.36,
+      "itemsCount": 4,
+      "lineItems": [
+        {
+          "productId": "P003",
+          "quantity": 1,
+          "total": 120
+        },
+        {
+          "productId": "P013",
+          "quantity": 3,
+          "total": 297
+        }
+      ]
+    },
+    {
+      "id": "O0295",
+      "customerId": "C104",
+      "total": 48.0,
+      "dateCreated": "2026-04-06T22:31:28Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "TikTok Ads",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P015",
+          "quantity": 2,
+          "total": 48
+        }
+      ]
+    },
+    {
+      "id": "O0296",
+      "customerId": "C031",
+      "total": 232.76,
+      "dateCreated": "2026-04-06T21:38:39Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Facebook Ads",
+      "discount": 20.24,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P001",
+          "quantity": 2,
+          "total": 158
+        },
+        {
+          "productId": "P002",
+          "quantity": 1,
+          "total": 95
+        }
+      ]
+    },
+    {
+      "id": "O0297",
+      "customerId": "C078",
+      "total": 72.0,
+      "dateCreated": "2026-04-06T09:52:14Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Facebook Ads",
+      "discount": 0.0,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P015",
+          "quantity": 3,
+          "total": 72
+        }
+      ]
+    },
+    {
+      "id": "O0298",
+      "customerId": "C085",
+      "total": 164.0,
+      "dateCreated": "2026-04-06T12:00:21Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Direct",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P016",
+          "quantity": 1,
+          "total": 76
+        },
+        {
+          "productId": "P012",
+          "quantity": 1,
+          "total": 88
+        }
+      ]
+    },
+    {
+      "id": "O0299",
+      "customerId": "C096",
+      "total": 58.0,
+      "dateCreated": "2026-04-07T20:46:26Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "TikTok Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P006",
+          "quantity": 1,
+          "total": 58
+        }
+      ]
+    },
+    {
+      "id": "O0300",
+      "customerId": "C066",
+      "total": 99.0,
+      "dateCreated": "2026-04-07T12:45:21Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Direct",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P013",
+          "quantity": 1,
+          "total": 99
+        }
+      ]
+    },
+    {
+      "id": "O0301",
+      "customerId": "C107",
+      "total": 216.2,
+      "dateCreated": "2026-04-07T16:00:33Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Organic Search",
+      "discount": 18.8,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P004",
+          "quantity": 2,
+          "total": 136
+        },
+        {
+          "productId": "P013",
+          "quantity": 1,
+          "total": 99
+        }
+      ]
+    },
+    {
+      "id": "O0302",
+      "customerId": "C013",
+      "total": 152.0,
+      "dateCreated": "2026-04-07T11:44:37Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Email CRM",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P016",
+          "quantity": 2,
+          "total": 152
+        }
+      ]
+    },
+    {
+      "id": "O0303",
+      "customerId": "C033",
+      "total": 173.0,
+      "dateCreated": "2026-04-07T12:17:25Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Organic Search",
+      "discount": 0.0,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P011",
+          "quantity": 2,
+          "total": 144
+        },
+        {
+          "productId": "P009",
+          "quantity": 1,
+          "total": 29
+        }
+      ]
+    },
+    {
+      "id": "O0304",
+      "customerId": "C076",
+      "total": 36.0,
+      "dateCreated": "2026-04-07T17:19:53Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Email CRM",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P014",
+          "quantity": 1,
+          "total": 36
+        }
+      ]
+    },
+    {
+      "id": "O0305",
+      "customerId": "C141",
+      "total": 178.0,
+      "dateCreated": "2026-04-07T11:45:41Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Facebook Ads",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P007",
+          "quantity": 1,
+          "total": 110
+        },
+        {
+          "productId": "P004",
+          "quantity": 1,
+          "total": 68
+        }
+      ]
+    },
+    {
+      "id": "O0306",
+      "customerId": "C129",
+      "total": 167.0,
+      "dateCreated": "2026-04-07T15:43:47Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Email CRM",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P004",
+          "quantity": 1,
+          "total": 68
+        },
+        {
+          "productId": "P013",
+          "quantity": 1,
+          "total": 99
+        }
+      ]
+    },
+    {
+      "id": "O0307",
+      "customerId": "C074",
+      "total": 158.0,
+      "dateCreated": "2026-04-07T11:03:42Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Facebook Ads",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P001",
+          "quantity": 2,
+          "total": 158
+        }
+      ]
+    },
+    {
+      "id": "O0308",
+      "customerId": "C052",
+      "total": 136.0,
+      "dateCreated": "2026-04-07T21:34:02Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Instagram Ads",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P010",
+          "quantity": 1,
+          "total": 64
+        },
+        {
+          "productId": "P011",
+          "quantity": 1,
+          "total": 72
+        }
+      ]
+    },
+    {
+      "id": "O0309",
+      "customerId": "C116",
+      "total": 214.36,
+      "dateCreated": "2026-04-07T20:18:44Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Organic Search",
+      "discount": 18.64,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P008",
+          "quantity": 1,
+          "total": 145
+        },
+        {
+          "productId": "P012",
+          "quantity": 1,
+          "total": 88
+        }
+      ]
+    },
+    {
+      "id": "O0310",
+      "customerId": "C013",
+      "total": 198.72,
+      "dateCreated": "2026-04-07T20:16:12Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Facebook Ads",
+      "discount": 17.28,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P011",
+          "quantity": 3,
+          "total": 216
+        }
+      ]
+    },
+    {
+      "id": "O0311",
+      "customerId": "C114",
+      "total": 322.0,
+      "dateCreated": "2026-04-07T19:04:11Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "TikTok Ads",
+      "discount": 28.0,
+      "itemsCount": 4,
+      "lineItems": [
+        {
+          "productId": "P012",
+          "quantity": 1,
+          "total": 88
+        },
+        {
+          "productId": "P013",
+          "quantity": 2,
+          "total": 198
+        },
+        {
+          "productId": "P010",
+          "quantity": 1,
+          "total": 64
+        }
+      ]
+    },
+    {
+      "id": "O0312",
+      "customerId": "C110",
+      "total": 58.0,
+      "dateCreated": "2026-04-08T14:29:45Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Instagram Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P006",
+          "quantity": 1,
+          "total": 58
+        }
+      ]
+    },
+    {
+      "id": "O0313",
+      "customerId": "C011",
+      "total": 174.8,
+      "dateCreated": "2026-04-08T22:42:19Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Organic Search",
+      "discount": 15.2,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P002",
+          "quantity": 2,
+          "total": 190
+        }
+      ]
+    },
+    {
+      "id": "O0314",
+      "customerId": "C147",
+      "total": 72.0,
+      "dateCreated": "2026-04-08T17:04:50Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Email CRM",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P011",
+          "quantity": 1,
+          "total": 72
+        }
+      ]
+    },
+    {
+      "id": "O0315",
+      "customerId": "C041",
+      "total": 120.0,
+      "dateCreated": "2026-04-08T19:21:21Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Instagram Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P003",
+          "quantity": 1,
+          "total": 120
+        }
+      ]
+    },
+    {
+      "id": "O0316",
+      "customerId": "C076",
+      "total": 166.52,
+      "dateCreated": "2026-04-08T16:15:57Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Instagram Ads",
+      "discount": 14.48,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P016",
+          "quantity": 2,
+          "total": 152
+        },
+        {
+          "productId": "P009",
+          "quantity": 1,
+          "total": 29
+        }
+      ]
+    },
+    {
+      "id": "O0317",
+      "customerId": "C158",
+      "total": 95.0,
+      "dateCreated": "2026-04-08T21:07:24Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Facebook Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P002",
+          "quantity": 1,
+          "total": 95
+        }
+      ]
+    },
+    {
+      "id": "O0318",
+      "customerId": "C139",
+      "total": 88.0,
+      "dateCreated": "2026-04-08T16:02:18Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "TikTok Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P012",
+          "quantity": 1,
+          "total": 88
+        }
+      ]
+    },
+    {
+      "id": "O0319",
+      "customerId": "C050",
+      "total": 68.0,
+      "dateCreated": "2026-04-08T17:34:00Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Instagram Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P004",
+          "quantity": 1,
+          "total": 68
+        }
+      ]
+    },
+    {
+      "id": "O0320",
+      "customerId": "C017",
+      "total": 146.0,
+      "dateCreated": "2026-04-08T20:49:27Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Instagram Ads",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P007",
+          "quantity": 1,
+          "total": 110
+        },
+        {
+          "productId": "P014",
+          "quantity": 1,
+          "total": 36
+        }
+      ]
+    },
+    {
+      "id": "O0321",
+      "customerId": "C019",
+      "total": 48.0,
+      "dateCreated": "2026-04-08T10:03:11Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "TikTok Ads",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P015",
+          "quantity": 2,
+          "total": 48
+        }
+      ]
+    },
+    {
+      "id": "O0322",
+      "customerId": "C067",
+      "total": 182.16,
+      "dateCreated": "2026-04-09T19:07:34Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Instagram Ads",
+      "discount": 15.84,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P013",
+          "quantity": 2,
+          "total": 198
+        }
+      ]
+    },
+    {
+      "id": "O0323",
+      "customerId": "C165",
+      "total": 174.8,
+      "dateCreated": "2026-04-09T17:06:18Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "TikTok Ads",
+      "discount": 15.2,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P002",
+          "quantity": 2,
+          "total": 190
+        }
+      ]
+    },
+    {
+      "id": "O0324",
+      "customerId": "C078",
+      "total": 24.0,
+      "dateCreated": "2026-04-09T09:30:10Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Direct",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P015",
+          "quantity": 1,
+          "total": 24
+        }
+      ]
+    },
+    {
+      "id": "O0325",
+      "customerId": "C057",
+      "total": 176.64,
+      "dateCreated": "2026-04-09T19:56:58Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Organic Search",
+      "discount": 15.36,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P010",
+          "quantity": 3,
+          "total": 192
+        }
+      ]
+    },
+    {
+      "id": "O0326",
+      "customerId": "C166",
+      "total": 198.72,
+      "dateCreated": "2026-04-09T20:22:13Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Instagram Ads",
+      "discount": 17.28,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P005",
+          "quantity": 1,
+          "total": 42
+        },
+        {
+          "productId": "P002",
+          "quantity": 1,
+          "total": 95
+        },
+        {
+          "productId": "P001",
+          "quantity": 1,
+          "total": 79
+        }
+      ]
+    },
+    {
+      "id": "O0327",
+      "customerId": "C166",
+      "total": 58.0,
+      "dateCreated": "2026-04-09T12:07:11Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "TikTok Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P006",
+          "quantity": 1,
+          "total": 58
+        }
+      ]
+    },
+    {
+      "id": "O0328",
+      "customerId": "C146",
+      "total": 96.0,
+      "dateCreated": "2026-04-09T20:37:31Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "TikTok Ads",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P015",
+          "quantity": 1,
+          "total": 24
+        },
+        {
+          "productId": "P011",
+          "quantity": 1,
+          "total": 72
+        }
+      ]
+    },
+    {
+      "id": "O0329",
+      "customerId": "C092",
+      "total": 110.0,
+      "dateCreated": "2026-04-09T18:42:19Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Organic Search",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P004",
+          "quantity": 1,
+          "total": 68
+        },
+        {
+          "productId": "P005",
+          "quantity": 1,
+          "total": 42
+        }
+      ]
+    },
+    {
+      "id": "O0330",
+      "customerId": "C150",
+      "total": 198.72,
+      "dateCreated": "2026-04-09T14:15:50Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Organic Search",
+      "discount": 17.28,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P011",
+          "quantity": 3,
+          "total": 216
+        }
+      ]
+    },
+    {
+      "id": "O0331",
+      "customerId": "C165",
+      "total": 114.0,
+      "dateCreated": "2026-04-09T13:31:35Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Email CRM",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P005",
+          "quantity": 1,
+          "total": 42
+        },
+        {
+          "productId": "P011",
+          "quantity": 1,
+          "total": 72
+        }
+      ]
+    },
+    {
+      "id": "O0332",
+      "customerId": "C072",
+      "total": 110.0,
+      "dateCreated": "2026-04-10T10:46:04Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "TikTok Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P007",
+          "quantity": 1,
+          "total": 110
+        }
+      ]
+    },
+    {
+      "id": "O0333",
+      "customerId": "C130",
+      "total": 175.0,
+      "dateCreated": "2026-04-10T17:30:41Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Direct",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P013",
+          "quantity": 1,
+          "total": 99
+        },
+        {
+          "productId": "P016",
+          "quantity": 1,
+          "total": 76
+        }
+      ]
+    },
+    {
+      "id": "O0334",
+      "customerId": "C094",
+      "total": 413.08,
+      "dateCreated": "2026-04-10T18:43:10Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Instagram Ads",
+      "discount": 35.92,
+      "itemsCount": 4,
+      "lineItems": [
+        {
+          "productId": "P010",
+          "quantity": 1,
+          "total": 64
+        },
+        {
+          "productId": "P003",
+          "quantity": 2,
+          "total": 240
+        },
+        {
+          "productId": "P008",
+          "quantity": 1,
+          "total": 145
+        }
+      ]
+    },
+    {
+      "id": "O0335",
+      "customerId": "C036",
+      "total": 42.0,
+      "dateCreated": "2026-04-10T14:02:14Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Email CRM",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P005",
+          "quantity": 1,
+          "total": 42
+        }
+      ]
+    },
+    {
+      "id": "O0336",
+      "customerId": "C060",
+      "total": 95.0,
+      "dateCreated": "2026-04-10T21:23:24Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Organic Search",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P002",
+          "quantity": 1,
+          "total": 95
+        }
+      ]
+    },
+    {
+      "id": "O0337",
+      "customerId": "C117",
+      "total": 72.0,
+      "dateCreated": "2026-04-10T19:53:17Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Facebook Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P011",
+          "quantity": 1,
+          "total": 72
+        }
+      ]
+    },
+    {
+      "id": "O0338",
+      "customerId": "C068",
+      "total": 99.0,
+      "dateCreated": "2026-04-10T19:57:53Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Direct",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P013",
+          "quantity": 1,
+          "total": 99
+        }
+      ]
+    },
+    {
+      "id": "O0339",
+      "customerId": "C133",
+      "total": 261.28,
+      "dateCreated": "2026-04-10T11:28:10Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Instagram Ads",
+      "discount": 22.72,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P008",
+          "quantity": 1,
+          "total": 145
+        },
+        {
+          "productId": "P009",
+          "quantity": 1,
+          "total": 29
+        },
+        {
+          "productId": "P007",
+          "quantity": 1,
+          "total": 110
+        }
+      ]
+    },
+    {
+      "id": "O0340",
+      "customerId": "C020",
+      "total": 42.0,
+      "dateCreated": "2026-04-10T20:52:07Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Email CRM",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P005",
+          "quantity": 1,
+          "total": 42
+        }
+      ]
+    },
+    {
+      "id": "O0341",
+      "customerId": "C059",
+      "total": 68.0,
+      "dateCreated": "2026-04-10T12:37:10Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Instagram Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P004",
+          "quantity": 1,
+          "total": 68
+        }
+      ]
+    },
+    {
+      "id": "O0342",
+      "customerId": "C106",
+      "total": 58.0,
+      "dateCreated": "2026-04-10T18:09:03Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Organic Search",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P006",
+          "quantity": 1,
+          "total": 58
+        }
+      ]
+    },
+    {
+      "id": "O0343",
+      "customerId": "C067",
+      "total": 99.0,
+      "dateCreated": "2026-04-10T09:56:46Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Facebook Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P013",
+          "quantity": 1,
+          "total": 99
+        }
+      ]
+    },
+    {
+      "id": "O0344",
+      "customerId": "C170",
+      "total": 495.88,
+      "dateCreated": "2026-04-10T22:49:11Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "TikTok Ads",
+      "discount": 43.12,
+      "itemsCount": 5,
+      "lineItems": [
+        {
+          "productId": "P007",
+          "quantity": 3,
+          "total": 330
+        },
+        {
+          "productId": "P008",
+          "quantity": 1,
+          "total": 145
+        },
+        {
+          "productId": "P010",
+          "quantity": 1,
+          "total": 64
+        }
+      ]
+    },
+    {
+      "id": "O0345",
+      "customerId": "C169",
+      "total": 144.0,
+      "dateCreated": "2026-04-10T10:14:24Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Email CRM",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P011",
+          "quantity": 2,
+          "total": 144
+        }
+      ]
+    },
+    {
+      "id": "O0346",
+      "customerId": "C034",
+      "total": 72.0,
+      "dateCreated": "2026-04-10T11:30:57Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Organic Search",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P014",
+          "quantity": 2,
+          "total": 72
+        }
+      ]
+    },
+    {
+      "id": "O0347",
+      "customerId": "C031",
+      "total": 167.44,
+      "dateCreated": "2026-04-11T22:02:44Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Organic Search",
+      "discount": 14.56,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P001",
+          "quantity": 2,
+          "total": 158
+        },
+        {
+          "productId": "P015",
+          "quantity": 1,
+          "total": 24
+        }
+      ]
+    },
+    {
+      "id": "O0348",
+      "customerId": "C110",
+      "total": 197.8,
+      "dateCreated": "2026-04-11T10:27:08Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Instagram Ads",
+      "discount": 17.2,
+      "itemsCount": 3,
+      "lineItems": [
+        {
+          "productId": "P013",
+          "quantity": 1,
+          "total": 99
+        },
+        {
+          "productId": "P006",
+          "quantity": 2,
+          "total": 116
+        }
+      ]
+    },
+    {
+      "id": "O0349",
+      "customerId": "C123",
+      "total": 377.2,
+      "dateCreated": "2026-04-11T10:33:00Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "TikTok Ads",
+      "discount": 32.8,
+      "itemsCount": 5,
+      "lineItems": [
+        {
+          "productId": "P003",
+          "quantity": 2,
+          "total": 240
+        },
+        {
+          "productId": "P005",
+          "quantity": 1,
+          "total": 42
+        },
+        {
+          "productId": "P010",
+          "quantity": 2,
+          "total": 128
+        }
+      ]
+    },
+    {
+      "id": "O0350",
+      "customerId": "C168",
+      "total": 94.0,
+      "dateCreated": "2026-04-11T17:27:36Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Instagram Ads",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P014",
+          "quantity": 1,
+          "total": 36
+        },
+        {
+          "productId": "P006",
+          "quantity": 1,
+          "total": 58
+        }
+      ]
+    },
+    {
+      "id": "O0351",
+      "customerId": "C157",
+      "total": 171.12,
+      "dateCreated": "2026-04-11T16:16:19Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Instagram Ads",
+      "discount": 14.88,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P007",
+          "quantity": 1,
+          "total": 110
+        },
+        {
+          "productId": "P016",
+          "quantity": 1,
+          "total": 76
+        }
+      ]
+    },
+    {
+      "id": "O0352",
+      "customerId": "C089",
+      "total": 84.0,
+      "dateCreated": "2026-04-11T20:14:28Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "TikTok Ads",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P005",
+          "quantity": 2,
+          "total": 84
+        }
+      ]
+    },
+    {
+      "id": "O0353",
+      "customerId": "C042",
+      "total": 144.0,
+      "dateCreated": "2026-04-11T19:45:03Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Organic Search",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P011",
+          "quantity": 2,
+          "total": 144
+        }
+      ]
+    },
+    {
+      "id": "O0354",
+      "customerId": "C100",
+      "total": 220.8,
+      "dateCreated": "2026-04-11T18:27:05Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "Facebook Ads",
+      "discount": 19.2,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P003",
+          "quantity": 2,
+          "total": 240
+        }
+      ]
+    },
+    {
+      "id": "O0355",
+      "customerId": "C068",
+      "total": 95.0,
+      "dateCreated": "2026-04-11T15:39:41Z",
+      "status": "completed",
+      "paymentMethod": "Apple Pay",
+      "channel": "Instagram Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P002",
+          "quantity": 1,
+          "total": 95
+        }
+      ]
+    },
+    {
+      "id": "O0356",
+      "customerId": "C074",
+      "total": 239.2,
+      "dateCreated": "2026-04-11T17:18:12Z",
+      "status": "completed",
+      "paymentMethod": "Card",
+      "channel": "TikTok Ads",
+      "discount": 20.8,
+      "itemsCount": 4,
+      "lineItems": [
+        {
+          "productId": "P006",
+          "quantity": 2,
+          "total": 116
+        },
+        {
+          "productId": "P011",
+          "quantity": 2,
+          "total": 144
+        }
+      ]
+    },
+    {
+      "id": "O0357",
+      "customerId": "C154",
+      "total": 130.0,
+      "dateCreated": "2026-04-11T13:49:25Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Email CRM",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P006",
+          "quantity": 1,
+          "total": 58
+        },
+        {
+          "productId": "P011",
+          "quantity": 1,
+          "total": 72
+        }
+      ]
+    },
+    {
+      "id": "O0358",
+      "customerId": "C172",
+      "total": 167.0,
+      "dateCreated": "2026-04-11T17:58:37Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Instagram Ads",
+      "discount": 0.0,
+      "itemsCount": 2,
+      "lineItems": [
+        {
+          "productId": "P001",
+          "quantity": 1,
+          "total": 79
+        },
+        {
+          "productId": "P012",
+          "quantity": 1,
+          "total": 88
+        }
+      ]
+    },
+    {
+      "id": "O0359",
+      "customerId": "C089",
+      "total": 110.0,
+      "dateCreated": "2026-04-11T09:16:11Z",
+      "status": "completed",
+      "paymentMethod": "PayPal",
+      "channel": "Facebook Ads",
+      "discount": 0.0,
+      "itemsCount": 1,
+      "lineItems": [
+        {
+          "productId": "P007",
+          "quantity": 1,
+          "total": 110
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "dataset": "monthly-ecommerce-demo",
+    "start_date": "2026-03-12",
+    "end_date": "2026-04-11",
+    "days": 31
+  }
+}

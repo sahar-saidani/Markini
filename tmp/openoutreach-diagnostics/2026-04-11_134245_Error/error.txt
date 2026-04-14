@@ -1,0 +1,63 @@
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Desktop\OpenOutreach\linkedin\diagnostics.py", line 49, in failure_diagnostics
+    yield
+  File "C:\Users\ASUS\Desktop\OpenOutreach\linkedin\daemon.py", line 259, in run_daemon
+    handler(task, session, qualifiers)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\Desktop\OpenOutreach\linkedin\tasks\check_pending.py", line 41, in handle_check_pending
+    new_state = get_connection_status(session, profile)
+  File "C:\Users\ASUS\Desktop\OpenOutreach\linkedin\actions\status.py", line 100, in get_connection_status
+    session.ensure_browser()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ASUS\Desktop\OpenOutreach\linkedin\browser\session.py", line 49, in ensure_browser
+    start_browser_session(session=self)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\Desktop\OpenOutreach\linkedin\browser\login.py", line 118, in start_browser_session
+    playwright_login(session)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\ASUS\Desktop\OpenOutreach\linkedin\browser\login.py", line 85, in playwright_login
+    goto_page(
+    ~~~~~~~~~^
+        session,
+        ^^^^^^^^
+    ...<3 lines>...
+        error_message="Login failed – no redirect to feed",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ASUS\Desktop\OpenOutreach\linkedin\browser\nav.py", line 26, in goto_page
+    page.wait_for_url(lambda url: expected_url_pattern in unquote(url), timeout=timeout)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\Desktop\OpenOutreach\.venv\Lib\site-packages\playwright\sync_api\_generated.py", line 9197, in wait_for_url
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.wait_for_url(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            url=self._wrap_handler(url), waitUntil=wait_until, timeout=timeout
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        )
+        ^
+    )
+    ^
+  File "C:\Users\ASUS\Desktop\OpenOutreach\.venv\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\ASUS\Desktop\OpenOutreach\.venv\Lib\site-packages\playwright\_impl\_page.py", line 580, in wait_for_url
+    return await self._main_frame.wait_for_url(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\Desktop\OpenOutreach\.venv\Lib\site-packages\playwright\_impl\_frame.py", line 263, in wait_for_url
+    async with self.expect_navigation(
+               ~~~~~~~~~~~~~~~~~~~~~~^
+        url=url, waitUntil=waitUntil, timeout=timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ):
+    ^
+  File "C:\Users\ASUS\Desktop\OpenOutreach\.venv\Lib\site-packages\playwright\_impl\_event_context_manager.py", line 33, in __aexit__
+    await self._future
+  File "C:\Users\ASUS\Desktop\OpenOutreach\.venv\Lib\site-packages\playwright\_impl\_frame.py", line 239, in continuation
+    event = await waiter.result()
+            ^^^^^^^^^^^^^^^^^^^^^
+playwright._impl._errors.Error: Target page, context or browser has been closed
+=========================== logs ===========================
+waiting for navigation to "<function ImplToApiMapping.wrap_handler.<locals>.wrapper_func at 0x000001B3490B4860>" until 'load'
+============================================================

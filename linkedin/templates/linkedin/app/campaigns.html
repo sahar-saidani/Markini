@@ -1,0 +1,72 @@
+{% extends "linkedin/app/base.html" %}
+
+{% block title %}LeadFlow AI | Campaigns{% endblock %}
+
+{% block content %}
+<section class="hero">
+    <div class="card hero-card">
+        <span class="eyebrow">Campaign Studio</span>
+        <h1>Translate a company brief into a prospecting motion the engine can execute.</h1>
+        <p class="lede">
+            For the hackathon, this page is the business layer: audience definition, value proposition, and acquisition target.
+            The LinkedIn automation and AI scoring consume this campaign context directly.
+        </p>
+    </div>
+    <div class="card">
+        <div class="kicker">New Campaign</div>
+        <h2>Create an acquisition brief</h2>
+        <form method="post" action="{% url 'create_campaign' %}">
+            {% csrf_token %}
+            <div class="form-grid">
+                {% for field in form %}
+                <div class="field {% if field.name != 'name' and field.name != 'booking_link' %}full{% endif %}">
+                    <label for="{{ field.id_for_label }}">{{ field.label }}</label>
+                    {{ field }}
+                    {% if field.help_text %}<div class="helptext">{{ field.help_text }}</div>{% endif %}
+                    {% if field.errors %}<div class="helptext" style="color:var(--danger);">{{ field.errors|join:", " }}</div>{% endif %}
+                </div>
+                {% endfor %}
+            </div>
+            <div class="actions">
+                <button class="button" type="submit">Save campaign</button>
+                <a class="button secondary" href="{% url 'settings_page' %}">Configure AI first</a>
+            </div>
+        </form>
+    </div>
+</section>
+
+<section class="section">
+    <div class="section-head">
+        <div>
+            <h2>Active Campaigns</h2>
+            <p>Each card below is already connected to the existing CRM and pipeline data.</p>
+        </div>
+    </div>
+    <div class="grid-2">
+        {% for item in campaigns %}
+        <article class="card">
+            <div style="display:flex;justify-content:space-between;gap:16px;align-items:start;">
+                <div>
+                    <div class="kicker">Campaign</div>
+                    <h3><a href="{% url 'campaign_detail' item.campaign.id %}">{{ item.campaign.name }}</a></h3>
+                </div>
+                <span class="badge gold">{{ item.response_rate }}% traction</span>
+            </div>
+            <p class="muted">{{ item.campaign.product_docs|truncatechars:180 }}</p>
+            <table class="table">
+                <tbody>
+                    <tr><td class="muted">Qualified</td><td class="strong">{{ item.qualified }}</td></tr>
+                    <tr><td class="muted">Ready to contact</td><td class="strong">{{ item.ready }}</td></tr>
+                    <tr><td class="muted">Connected</td><td class="strong">{{ item.connected }}</td></tr>
+                    <tr><td class="muted">Completed</td><td class="strong">{{ item.completed }}</td></tr>
+                </tbody>
+            </table>
+        </article>
+        {% empty %}
+        <div class="card empty">
+            Start with one campaign. That is enough for a full hackathon flow: define audience, capture prospects, qualify with AI, and show the pipeline.
+        </div>
+        {% endfor %}
+    </div>
+</section>
+{% endblock %}
