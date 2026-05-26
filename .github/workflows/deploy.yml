@@ -30,6 +30,9 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install -r requirements/local.txt
 
+      - name: Install Playwright browser
+        run: python -m playwright install --with-deps chromium
+
       - name: Run tests
         run: python -m pytest
 
