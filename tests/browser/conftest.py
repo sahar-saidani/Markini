@@ -1,6 +1,7 @@
 # tests/browser/conftest.py
 """Playwright fixtures for testing selectors against saved HTML pages."""
 import pytest
+from playwright.sync_api import Error as PlaywrightError
 from playwright.sync_api import sync_playwright
 
 from linkedin.conf import FIXTURE_PAGES_DIR
@@ -13,7 +14,7 @@ def browser():
             b = pw.chromium.launch(headless=True)
             yield b
             b.close()
-    except (PermissionError, OSError) as exc:
+    except (PermissionError, OSError, PlaywrightError) as exc:
         pytest.skip(f"Playwright unavailable in this environment: {exc}")
 
 
