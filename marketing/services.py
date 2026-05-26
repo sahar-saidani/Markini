@@ -232,9 +232,11 @@ def creator_profile_to_dict(profile: CreatorProfile) -> dict:
 
 def get_qwen_config(profile: CreatorProfile) -> QwenConfig:
     """Resolve the configured OpenAI-compatible LLM credentials."""
-    api_key = os.environ.get("LLM_API_KEY") or os.environ.get("QWEN_API_KEY") or profile.qwen_api_key or ""
-    base_url = os.environ.get("LLM_API_BASE") or os.environ.get("QWEN_API_BASE") or profile.qwen_api_base or DEFAULT_QWEN_BASE
-    model = os.environ.get("LLM_API_MODEL") or os.environ.get("QWEN_API_MODEL") or profile.qwen_model or DEFAULT_QWEN_MODEL
+    # Workspace settings must override process-level defaults so a synced
+    # account uses the credentials configured in the app UI.
+    api_key = profile.qwen_api_key or os.environ.get("LLM_API_KEY") or os.environ.get("QWEN_API_KEY") or ""
+    base_url = profile.qwen_api_base or os.environ.get("LLM_API_BASE") or os.environ.get("QWEN_API_BASE") or DEFAULT_QWEN_BASE
+    model = profile.qwen_model or os.environ.get("LLM_API_MODEL") or os.environ.get("QWEN_API_MODEL") or DEFAULT_QWEN_MODEL
     if not api_key:
         raise ValueError("LLM API key is not configured.")
     return QwenConfig(api_key=api_key, base_url=base_url.rstrip("/"), model=model)

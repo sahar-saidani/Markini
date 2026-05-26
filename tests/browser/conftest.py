@@ -8,10 +8,13 @@ from linkedin.conf import FIXTURE_PAGES_DIR
 
 @pytest.fixture(scope="session")
 def browser():
-    with sync_playwright() as pw:
-        b = pw.chromium.launch(headless=True)
-        yield b
-        b.close()
+    try:
+        with sync_playwright() as pw:
+            b = pw.chromium.launch(headless=True)
+            yield b
+            b.close()
+    except (PermissionError, OSError) as exc:
+        pytest.skip(f"Playwright unavailable in this environment: {exc}")
 
 
 @pytest.fixture

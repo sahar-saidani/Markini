@@ -15,8 +15,22 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: "pip"
+          cache-dependency-path: |
+            requirements/base.txt
+            requirements/local.txt
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements/local.txt
+
       - name: Run tests
-        run: HOST_UID=$(id -u) HOST_GID=$(id -g) make docker-test
+        run: python -m pytest
 
   build-and-push:
     needs: test
@@ -49,7 +63,7 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           context: .
-          file: ./compose/linkedin/Dockerfile
+          file: ./Dockerfile
           build-args: |
             BUILD_ENV=production
             GIT_SHA=${{ github.sha }}
